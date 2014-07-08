@@ -5,4 +5,5 @@ dist
 www/lib
 platforms/ios/build
 platforms/ios/www
-
+#屏蔽webstormIDE
+.idea
