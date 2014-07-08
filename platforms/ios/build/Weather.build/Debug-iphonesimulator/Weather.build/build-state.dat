@@ -1,0 +1,1048 @@
+TWeather
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Info.plist /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Weather/Resources/icons/icon-76.png build/emulator/Weather.app/icon-76.png
+cCpResource Weather/Resources/icons/icon-40@2x.png build/emulator/Weather.app/icon-40@2x.png
+cCpResource Weather/Resources/icons/icon-72.png build/emulator/Weather.app/icon-72.png
+cCpResource Weather/Resources/icons/icon.png build/emulator/Weather.app/icon.png
+cCpResource Weather/Resources/icons/icon@2x.png build/emulator/Weather.app/icon@2x.png
+cCopyStringsFile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/en.lproj/Localizable.strings Weather/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.xib
+cCpResource Weather/Resources/icons/icon-50.png build/emulator/Weather.app/icon-50.png
+cCpResource Weather/Resources/icons/icon-60@2x.png build/emulator/Weather.app/icon-60@2x.png
+cCopyStringsFile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/de.lproj/Localizable.strings Weather/Resources/de.lproj/Localizable.strings
+cCpResource Weather/Resources/icons/icon-small.png build/emulator/Weather.app/icon-small.png
+cCpResource Weather/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Weather.app/Default-Landscape@2x~ipad.png
+cCpResource Weather/Resources/splash/Default-Landscape~ipad.png build/emulator/Weather.app/Default-Landscape~ipad.png
+cCpResource Weather/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Weather.app/Default-Portrait@2x~ipad.png
+cCpResource Weather/Resources/icons/icon-small@2x.png build/emulator/Weather.app/icon-small@2x.png
+cCpResource Weather/Resources/splash/Default-Portrait~ipad.png build/emulator/Weather.app/Default-Portrait~ipad.png
+cCpResource Weather/Resources/icons/icon-40.png build/emulator/Weather.app/icon-40.png
+cCpResource Weather/Resources/splash/Default@2x~iphone.png build/emulator/Weather.app/Default@2x~iphone.png
+cCpResource Weather/Resources/icons/icon-60.png build/emulator/Weather.app/icon-60.png
+cCpResource Weather/Resources/splash/Default~iphone.png build/emulator/Weather.app/Default~iphone.png
+cCpResource Weather/Resources/splash/Default-568h@2x~iphone.png build/emulator/Weather.app/Default-568h@2x~iphone.png
+cCpResource Weather/Resources/icons/icon-50@2x.png build/emulator/Weather.app/icon-50@2x.png
+cCpResource Weather/Resources/icons/icon-76@2x.png build/emulator/Weather.app/icon-76@2x.png
+cCpResource Weather/Resources/icons/icon-72@2x.png build/emulator/Weather.app/icon-72@2x.png
+cProcessPCH /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.pch Weather/Weather-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather normal i386
+cGenerateDSYMFile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app.dSYM /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather
+cTouch /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c00000000534F70D20000000000000198
+t1397715154
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531FE6C300000000000003B4
+t1394599619
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531FE6CD000000000000019E
+t1394599629
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000531FE6CF0000000000059340
+t1394599631
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000534F70760000000000446820
+t1397715062
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000531FE6D000000000000F1A80
+t1394599632
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000531FE6D300000000001BE790
+t1394599635
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000531FE6D500000000001081C0
+t1394599637
+s1081792
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.m
+c0000000053BA25CF0000000000001769
+t1404708303
+s5993
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.m
+c0000000053BA25D00000000000001268
+t1404708304
+s4712
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.xib
+c0000000053BA25CF0000000000001759
+t1404708303
+s5977
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.m
+c0000000053BA25D20000000000000490
+t1404708306
+s1168
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.m
+c0000000053BA25D20000000000000C22
+t1404708306
+s3106
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m
+c0000000053BA25D200000000000033F7
+t1404708306
+s13303
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m
+c0000000053BA25D20000000000001092
+t1404708306
+s4242
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m
+c0000000053BA25D200000000000026FF
+t1404708306
+s9983
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m
+c0000000053BA25D2000000000000345E
+t1404708306
+s13406
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/de.lproj/Localizable.strings
+c0000000053BA25CF00000000000004C0
+t1404708303
+s1216
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/en.lproj/Localizable.strings
+c0000000053BA25CF00000000000004AB
+t1404708303
+s1195
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-40.png
+c0000000053BA25CF0000000000000FF2
+t1404708303
+s4082
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-40@2x.png
+c0000000053BA25CF0000000000001CF3
+t1404708303
+s7411
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-50.png
+c0000000053BA25CF000000000000130A
+t1404708303
+s4874
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-50@2x.png
+c0000000053BA25CF000000000000258B
+t1404708303
+s9611
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-60.png
+c0000000053BA25CF00000000000016B3
+t1404708303
+s5811
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-60@2x.png
+c0000000053BA25CF0000000000002E94
+t1404708303
+s11924
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-72.png
+c0000000053BA25CF0000000000001350
+t1404708303
+s4944
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-72@2x.png
+c0000000053BA25CF0000000000002DBA
+t1404708303
+s11706
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-76.png
+c0000000053BA25CF0000000000001B71
+t1404708303
+s7025
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-76@2x.png
+c0000000053BA25CF0000000000003B9E
+t1404708303
+s15262
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-small.png
+c0000000053BA25CF0000000000000CDE
+t1404708303
+s3294
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-small@2x.png
+c0000000053BA25CF00000000000015E8
+t1404708303
+s5608
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon.png
+c0000000053BA25CF0000000000000F3E
+t1404708303
+s3902
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon@2x.png
+c0000000053BA25CF0000000000001EBD
+t1404708303
+s7869
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-568h@2x~iphone.png
+c0000000053BA25CF00000000000085B1
+t1404708303
+s34225
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053BA25CF0000000000033D0A
+t1404708303
+s212234
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-Landscape~ipad.png
+c0000000053BA25CF00000000000166A2
+t1404708303
+s91810
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000053BA25CF0000000000033F7C
+t1404708303
+s212860
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-Portrait~ipad.png
+c0000000053BA25CF0000000000016641
+t1404708303
+s91713
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default@2x~iphone.png
+c0000000053BA25CF0000000000007323
+t1404708303
+s29475
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default~iphone.png
+c0000000053BA25CF000000000000289A
+t1404708303
+s10394
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Info.plist
+c0000000053BA2F0C0000000000000A10
+t1404710668
+s2576
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Prefix.pch
+c0000000053BA25D000000000000003BF
+t1404708304
+s959
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/main.m
+c0000000053BA25D00000000000000459
+t1404708304
+s1113
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.o
+t1404710703
+s77384
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.o
+t1404710703
+s56172
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.o
+t1404710703
+s50328
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.o
+t1404710703
+s92000
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.o
+t1404710703
+s41516
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.o
+t1404710703
+s20620
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.o
+t1404710703
+s101056
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.o
+t1404710703
+s51556
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/Weather.LinkFileList
+c0000000053BA2F19000000000000051C
+t1404710681
+s1308
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.o
+t1404710703
+s2980
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Script-304B58A110DAC018002A0835.sh
+c0000000053BA2F19000000000000002D
+t1404710681
+s45
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app
+t1404710704
+s1020
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app.dSYM
+t2
+s0
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-568h@2x~iphone.png
+t1404710683
+s34225
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-Landscape@2x~ipad.png
+t1404710682
+s212234
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-Landscape~ipad.png
+t1404710683
+s91810
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-Portrait@2x~ipad.png
+t1404710683
+s212860
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-Portrait~ipad.png
+t1404710683
+s91713
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default@2x~iphone.png
+t1404710683
+s29475
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default~iphone.png
+t1404710683
+s10394
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Info.plist
+t1404710681
+s1278
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/MainViewController.nib
+t1404710702
+s836
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/PkgInfo
+t2
+s0
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather
+t1404710704
+s350104
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/de.lproj/Localizable.strings
+t1404710682
+s280
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/en.lproj/Localizable.strings
+t1404710682
+s166
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-40.png
+t1404710683
+s4082
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-40@2x.png
+t1404710682
+s7411
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-50.png
+t1404710682
+s4874
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-50@2x.png
+t1404710683
+s9611
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-60.png
+t1404710683
+s5811
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-60@2x.png
+t1404710682
+s11924
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-72.png
+t1404710682
+s4944
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-72@2x.png
+t1404710683
+s11706
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-76.png
+t1404710682
+s7025
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-76@2x.png
+t1404710683
+s15262
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-small.png
+t1404710682
+s3294
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-small@2x.png
+t1404710682
+s5608
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon.png
+t1404710682
+s3902
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon@2x.png
+t1404710682
+s7869
+
+N/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/libCordova.a
+c0000000053BA2F1900000000000D4358
+t1404710681
+s869208
+
+N/var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.pch
+t1404710703
+s5376580
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1afc5999666ab941^1f837d99666ab941^---0#1#1#--18"Check dependencies36"5B396EA3-E76D-4490-B83D-343925DF3D7E-
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.033381
+e426403503.748291
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.m
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.m196"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.o Weather/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8eea08af666ab941^da90bfaf666ab941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.m0000000000000000^4772"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.o Weather/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/AppDelegate.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.o36"06EC1B3D-60BA-49D0-AB62-CD02BD4BE6F4-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.644096
+e426403503.890028
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m239"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.o Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb459a5af666ab941^30dae3af666ab941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m0000000000000000^4862"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.o Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVConnection.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.o36"4896388F-016B-4EDA-A4EA-6EC32D7A3748-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.641285
+e426403503.833841
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.m
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDV.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.m218"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.o Weather/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler83a7a4af666ab941^cc7ad5af666ab941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.m0000000000000000^4812"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.o Weather/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.device/CDVDevice.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.o36"12586E27-BFAC-4F0C-AA2D-2265E3D9C226-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.641639
+e426403503.809468
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m227"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.o Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf92ea5af666ab941^8bc5cfaf666ab941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m0000000000000000^4834"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.o Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.geolocation/CDVLocation.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.o36"2145FB57-34BB-4EE2-B7A6-BBD6F5884158-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.035959
+e426403503.641168
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.m
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDV.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.m219"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.o Weather/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercd7609af666ab941^4f24a4af666ab941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.m0000000000000000^4814"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.o Weather/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.console/CDVLogger.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.o36"5893D8B6-F4D9-47F6-A6DB-9CDC401FEAF3-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.749649
+e426403503.865665
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m243"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.o Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6877c0af666ab941^9d9cddaf666ab941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m0000000000000000^4874"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.o Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.network-information/CDVReachability.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.o36"FB797611-42EA-4C0C-ACDB-2A165A31C658-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.810077
+e426403503.942657
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m227"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.o Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7aa6cfaf666ab941^fb58f1af666ab941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m0000000000000000^4836"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.o Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.o36"0F370340-83CF-4601-BF56-93E882B81B3A-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.034460
+e426403503.641604
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.m
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.m210"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.o Weather/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler581d09af666ab941^b742a4af666ab941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.m0000000000000000^4814"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.o Weather/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.o36"20E85486-3AB7-4CAE-815A-3D3879E411CB-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403503.033056
+e426403503.640169
+r1
+xCompileC
+xbuild/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.o
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/main.m174"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.o Weather/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler80bb08af666ab941^11e5a3af666ab941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/main.m0000000000000000^4714"CompileC build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.o Weather/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -include /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch -MMD -MT dependencies -MF /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.dia -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/main.m -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.o36"61A1D7AD-2D58-4DA7-9105-F6BC8264B294-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCompileXIB /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.xib
+s426403482.807163
+e426403502.619610
+r1
+xCompileXIB
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.xib49"CompileXIB Weather/Classes/MainViewController.xibfe0ccf9a666ab941^389f9eae666ab941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.xib0000000000000000^1859"CompileXIB Weather/Classes/MainViewController.xib    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/MainViewController.nib /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Classes/MainViewController.xib36"7129C770-F472-4C9E-B12B-706F478A8BC9-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCopyStringsFile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/de.lproj/Localizable.strings Weather/Resources/de.lproj/Localizable.strings
+s426403482.813912
+e426403482.893468
+r1
+xCopyStringsFile
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/de.lproj/Localizable.strings
+xWeather/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy Weather/Resources/de.lproj/Localizable.strings118"CopyStringsFile build/emulator/Weather.app/de.lproj/Localizable.strings Weather/Resources/de.lproj/Localizable.strings2995d09a666ab941^71c6e49a666ab941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/de.lproj/Localizable.strings0000000000000000^1655"CopyStringsFile build/emulator/Weather.app/de.lproj/Localizable.strings Weather/Resources/de.lproj/Localizable.strings    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/de.lproj -- Weather/Resources/de.lproj/Localizable.strings36"445091DC-F1FB-4D73-AEC8-F483BD5E0649-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCopyStringsFile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/en.lproj/Localizable.strings Weather/Resources/en.lproj/Localizable.strings
+s426403482.806412
+e426403482.813052
+r1
+xCopyStringsFile
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/en.lproj/Localizable.strings
+xWeather/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy Weather/Resources/en.lproj/Localizable.strings118"CopyStringsFile build/emulator/Weather.app/en.lproj/Localizable.strings Weather/Resources/en.lproj/Localizable.stringsd7c0ce9a666ab941^363dd09a666ab941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/en.lproj/Localizable.strings0000000000000000^1655"CopyStringsFile build/emulator/Weather.app/en.lproj/Localizable.strings Weather/Resources/en.lproj/Localizable.strings    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/en.lproj -- Weather/Resources/en.lproj/Localizable.strings36"7FB79DA0-5BE8-48A2-BB7F-E02C9C88BA3C-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-40.png build/emulator/Weather.app/icon-40.png
+s426403483.027630
+e426403483.029259
+r1
+xCpResource
+xWeather/Resources/icons/icon-40.png
+xbuild/emulator/Weather.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Weather.app/icon-40.png85"CpResource Weather/Resources/icons/icon-40.png build/emulator/Weather.app/icon-40.png8f54079b666ab941^fa7d079b666ab941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-40.png00341436ddffdf42^1676"CpResource Weather/Resources/icons/icon-40.png build/emulator/Weather.app/icon-40.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-40.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"C0C520A2-B646-4539-B38D-21AE54D028CC-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-40@2x.png build/emulator/Weather.app/icon-40@2x.png
+s426403482.369023
+e426403482.805685
+r1
+xCpResource
+xWeather/Resources/icons/icon-40@2x.png
+xbuild/emulator/Weather.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/Weather.app/icon-40@2x.png91"CpResource Weather/Resources/icons/icon-40@2x.png build/emulator/Weather.app/icon-40@2x.pnga1bd5e9a666ab941^d541ce9a666ab941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-40@2x.png00341436ddffdf42^1685"CpResource Weather/Resources/icons/icon-40@2x.png build/emulator/Weather.app/icon-40@2x.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-40@2x.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"77B679C9-BD88-45FE-86C9-FFE59B0F9754-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-50.png build/emulator/Weather.app/icon-50.png
+s426403482.807946
+e426403482.812897
+r1
+xCpResource
+xWeather/Resources/icons/icon-50.png
+xbuild/emulator/Weather.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Weather.app/icon-50.png85"CpResource Weather/Resources/icons/icon-50.png build/emulator/Weather.app/icon-50.pngae0fcf9a666ab941^d21dd09a666ab941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-50.png00341436ddffdf42^1676"CpResource Weather/Resources/icons/icon-50.png build/emulator/Weather.app/icon-50.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-50.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"93DCAF7E-1C7E-488C-B3A4-870E0D820B7A-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-50@2x.png build/emulator/Weather.app/icon-50@2x.png
+s426403483.065498
+e426403483.161357
+r1
+xCpResource
+xWeather/Resources/icons/icon-50@2x.png
+xbuild/emulator/Weather.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/Weather.app/icon-50@2x.png91"CpResource Weather/Resources/icons/icon-50@2x.png build/emulator/Weather.app/icon-50@2x.png6bf2109b666ab941^9351299b666ab941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-50@2x.png00341436ddffdf42^1685"CpResource Weather/Resources/icons/icon-50@2x.png build/emulator/Weather.app/icon-50@2x.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-50@2x.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"CA56CCA6-09EC-4093-85DB-0C53A82A8128-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-60.png build/emulator/Weather.app/icon-60.png
+s426403483.047475
+e426403483.083631
+r1
+xCpResource
+xWeather/Resources/icons/icon-60.png
+xbuild/emulator/Weather.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Weather.app/icon-60.png85"CpResource Weather/Resources/icons/icon-60.png build/emulator/Weather.app/icon-60.png6c5f0c9b666ab941^c269159b666ab941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-60.png00341436ddffdf42^1676"CpResource Weather/Resources/icons/icon-60.png build/emulator/Weather.app/icon-60.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-60.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"518AC375-E8BA-4163-B349-EF365B73385A-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-60@2x.png build/emulator/Weather.app/icon-60@2x.png
+s426403482.813111
+e426403482.881626
+r1
+xCpResource
+xWeather/Resources/icons/icon-60@2x.png
+xbuild/emulator/Weather.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/Weather.app/icon-60@2x.png91"CpResource Weather/Resources/icons/icon-60@2x.png build/emulator/Weather.app/icon-60@2x.png6d72d09a666ab941^c4b2e19a666ab941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-60@2x.png00341436ddffdf42^1685"CpResource Weather/Resources/icons/icon-60@2x.png build/emulator/Weather.app/icon-60@2x.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-60@2x.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"7689CF2D-9FB6-4871-B5B3-2D780FA1AFC8-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-72.png build/emulator/Weather.app/icon-72.png
+s426403482.369328
+e426403482.806252
+r1
+xCpResource
+xWeather/Resources/icons/icon-72.png
+xbuild/emulator/Weather.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Weather.app/icon-72.png85"CpResource Weather/Resources/icons/icon-72.png build/emulator/Weather.app/icon-72.png2fc05e9a666ab941^fd66ce9a666ab941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-72.png00341436ddffdf42^1676"CpResource Weather/Resources/icons/icon-72.png build/emulator/Weather.app/icon-72.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-72.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"1143EE04-D7F5-407A-A279-3906DE6B5692-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-72@2x.png build/emulator/Weather.app/icon-72@2x.png
+s426403483.083805
+e426403483.167076
+r1
+xCpResource
+xWeather/Resources/icons/icon-72@2x.png
+xbuild/emulator/Weather.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/Weather.app/icon-72@2x.png91"CpResource Weather/Resources/icons/icon-72@2x.png build/emulator/Weather.app/icon-72@2x.png3998159b666ab941^d2c52a9b666ab941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-72@2x.png00341436ddffdf42^1685"CpResource Weather/Resources/icons/icon-72@2x.png build/emulator/Weather.app/icon-72@2x.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-72@2x.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"F86B5F8E-3E00-4EDB-BB39-5AA5842953EF-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-76.png build/emulator/Weather.app/icon-76.png
+s426403482.368800
+e426403482.806655
+r1
+xCpResource
+xWeather/Resources/icons/icon-76.png
+xbuild/emulator/Weather.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Weather.app/icon-76.png85"CpResource Weather/Resources/icons/icon-76.png build/emulator/Weather.app/icon-76.png3ba65e9a666ab941^ae80ce9a666ab941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-76.png00341436ddffdf42^1676"CpResource Weather/Resources/icons/icon-76.png build/emulator/Weather.app/icon-76.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-76.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"827A485D-C36C-4B84-81F8-8658BB90D54B-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-76@2x.png build/emulator/Weather.app/icon-76@2x.png
+s426403483.069577
+e426403483.115897
+r1
+xCpResource
+xWeather/Resources/icons/icon-76@2x.png
+xbuild/emulator/Weather.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/Weather.app/icon-76@2x.png91"CpResource Weather/Resources/icons/icon-76@2x.png build/emulator/Weather.app/icon-76@2x.png6bf1119b666ab941^ebad1d9b666ab941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-76@2x.png00341436ddffdf42^1685"CpResource Weather/Resources/icons/icon-76@2x.png build/emulator/Weather.app/icon-76@2x.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-76@2x.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"2DB499DE-6FE3-4D20-BB15-7621B2B77624-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-small.png build/emulator/Weather.app/icon-small.png
+s426403482.814118
+e426403482.893002
+r1
+xCpResource
+xWeather/Resources/icons/icon-small.png
+xbuild/emulator/Weather.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/Weather.app/icon-small.png91"CpResource Weather/Resources/icons/icon-small.png build/emulator/Weather.app/icon-small.png779ed09a666ab941^5a9de49a666ab941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-small.png00341436ddffdf42^1685"CpResource Weather/Resources/icons/icon-small.png build/emulator/Weather.app/icon-small.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-small.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"1947A2FD-C2E4-4E18-82E7-6665D668B0E1-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon-small@2x.png build/emulator/Weather.app/icon-small@2x.png
+s426403482.917159
+e426403482.922768
+r1
+xCpResource
+xWeather/Resources/icons/icon-small@2x.png
+xbuild/emulator/Weather.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/Weather.app/icon-small@2x.png97"CpResource Weather/Resources/icons/icon-small@2x.png build/emulator/Weather.app/icon-small@2x.png31eeea9a666ab941^ce39ec9a666ab941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon-small@2x.png00341436ddffdf42^1694"CpResource Weather/Resources/icons/icon-small@2x.png build/emulator/Weather.app/icon-small@2x.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon-small@2x.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"CBB9FADC-3535-4E19-8DC1-6657EBF7BF98-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon.png build/emulator/Weather.app/icon.png
+s426403482.370787
+e426403482.807268
+r1
+xCpResource
+xWeather/Resources/icons/icon.png
+xbuild/emulator/Weather.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Weather.app/icon.png79"CpResource Weather/Resources/icons/icon.png build/emulator/Weather.app/icon.png16175f9a666ab941^9babce9a666ab941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon.png00341436ddffdf42^1667"CpResource Weather/Resources/icons/icon.png build/emulator/Weather.app/icon.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"2BF66EBA-5592-4FED-BCF3-87F7564CAC0E-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/icons/icon@2x.png build/emulator/Weather.app/icon@2x.png
+s426403482.805887
+e426403482.813006
+r1
+xCpResource
+xWeather/Resources/icons/icon@2x.png
+xbuild/emulator/Weather.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Weather.app/icon@2x.png85"CpResource Weather/Resources/icons/icon@2x.png build/emulator/Weather.app/icon@2x.png3e92ce9a666ab941^cd22d09a666ab941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/icon@2x.png00341436ddffdf42^1676"CpResource Weather/Resources/icons/icon@2x.png build/emulator/Weather.app/icon@2x.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/icons/icon@2x.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"05796F9E-5971-48E3-9206-78CF902B8FB8-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/splash/Default-568h@2x~iphone.png build/emulator/Weather.app/Default-568h@2x~iphone.png
+s426403483.063875
+e426403483.065329
+r1
+xCpResource
+xWeather/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/Weather.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/Weather.app/Default-568h@2x~iphone.png116"CpResource Weather/Resources/splash/Default-568h@2x~iphone.png build/emulator/Weather.app/Default-568h@2x~iphone.png9887109b666ab941^dcb9109b666ab941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-568h@2x~iphone.png00341436ddffdf42^1723"CpResource Weather/Resources/splash/Default-568h@2x~iphone.png build/emulator/Weather.app/Default-568h@2x~iphone.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-568h@2x~iphone.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"DAD8EA05-7B76-40C3-B2B0-98DA0A8E8C75-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Weather.app/Default-Landscape@2x~ipad.png
+s426403482.881827
+e426403482.916929
+r1
+xCpResource
+xWeather/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/Weather.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/Weather.app/Default-Landscape@2x~ipad.png122"CpResource Weather/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Weather.app/Default-Landscape@2x~ipad.pngc8ebe19a666ab941^49baea9a666ab941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-Landscape@2x~ipad.png00341436ddffdf42^1732"CpResource Weather/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Weather.app/Default-Landscape@2x~ipad.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-Landscape@2x~ipad.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"53D982B0-AC0E-41D9-8BDF-3093F8547FCF-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/splash/Default-Landscape~ipad.png build/emulator/Weather.app/Default-Landscape~ipad.png
+s426403482.893563
+e426403483.027411
+r1
+xCpResource
+xWeather/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/Weather.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/Weather.app/Default-Landscape~ipad.png116"CpResource Weather/Resources/splash/Default-Landscape~ipad.png build/emulator/Weather.app/Default-Landscape~ipad.png732ee59a666ab941^4704079b666ab941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-Landscape~ipad.png00341436ddffdf42^1723"CpResource Weather/Resources/splash/Default-Landscape~ipad.png build/emulator/Weather.app/Default-Landscape~ipad.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-Landscape~ipad.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"50724918-D817-4B38-855F-500A4D91119F-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Weather.app/Default-Portrait@2x~ipad.png
+s426403482.894897
+e426403483.063643
+r1
+xCpResource
+xWeather/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/Weather.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/Weather.app/Default-Portrait@2x~ipad.png120"CpResource Weather/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Weather.app/Default-Portrait@2x~ipad.pnge25ae59a666ab941^5e4b109b666ab941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-Portrait@2x~ipad.png00341436ddffdf42^1729"CpResource Weather/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Weather.app/Default-Portrait@2x~ipad.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-Portrait@2x~ipad.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"106378A0-BB30-4E4F-B6EF-03EF7197967C-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/splash/Default-Portrait~ipad.png build/emulator/Weather.app/Default-Portrait~ipad.png
+s426403482.922999
+e426403483.047209
+r1
+xCpResource
+xWeather/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/Weather.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/Weather.app/Default-Portrait~ipad.png114"CpResource Weather/Resources/splash/Default-Portrait~ipad.png build/emulator/Weather.app/Default-Portrait~ipad.png9565ec9a666ab941^bc220c9b666ab941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default-Portrait~ipad.png00341436ddffdf42^1720"CpResource Weather/Resources/splash/Default-Portrait~ipad.png build/emulator/Weather.app/Default-Portrait~ipad.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default-Portrait~ipad.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"F947A630-F08E-47D6-B870-2F4CF900B351-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/splash/Default@2x~iphone.png build/emulator/Weather.app/Default@2x~iphone.png
+s426403483.029480
+e426403483.047278
+r1
+xCpResource
+xWeather/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/Weather.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/emulator/Weather.app/Default@2x~iphone.png106"CpResource Weather/Resources/splash/Default@2x~iphone.png build/emulator/Weather.app/Default@2x~iphone.png32ab079b666ab941^16160c9b666ab941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default@2x~iphone.png00341436ddffdf42^1708"CpResource Weather/Resources/splash/Default@2x~iphone.png build/emulator/Weather.app/Default@2x~iphone.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default@2x~iphone.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"96E73DC8-1A77-47A8-BF1E-EA30CA4B6DEB-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CCpResource Weather/Resources/splash/Default~iphone.png build/emulator/Weather.app/Default~iphone.png
+s426403483.047771
+e426403483.069339
+r1
+xCpResource
+xWeather/Resources/splash/Default~iphone.png
+xbuild/emulator/Weather.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Weather.app/Default~iphone.png100"CpResource Weather/Resources/splash/Default~iphone.png build/emulator/Weather.app/Default~iphone.png9e5f0c9b666ab941^a9c0119b666ab941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Default~iphone.png00341436ddffdf42^1699"CpResource Weather/Resources/splash/Default~iphone.png build/emulator/Weather.app/Default~iphone.png    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Resources/splash/Default~iphone.png /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"FC5FBBFE-1245-4BEB-8F68-ABC5AB8F3AC6-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CGenerateDSYMFile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app.dSYM /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather
+s426403504.921847
+e426403505.171039
+r1
+xGenerateDSYMFile
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app.dSYM
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generate /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app.dSYM83"GenerateDSYMFile build/emulator/Weather.app.dSYM build/emulator/Weather.app/Weathere21decb0666ab941^4bcc2bb1666ab941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app.dSYM00341436ddffdf42^1669"GenerateDSYMFile build/emulator/Weather.app.dSYM build/emulator/Weather.app/Weather    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app.dSYM36"D19997E0-BCB7-4F0E-AC2D-92240BB07E23-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CLd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather normal i386
+s426403503.944486
+e426403504.911819
+r1
+xLd
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather
+xnormal
+xi386
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/Weather.LinkFileList
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/main.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/AppDelegate.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/MainViewController.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLogger.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVDevice.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVLocation.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVConnection.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVReachability.o
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/CDVStatusBar.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather49"Ld build/emulator/Weather.app/Weather normal i386dcf2f1af666ab941^d26de9b0666ab941^---0#0#1#--2799"Ld build/emulator/Weather.app/Weather normal i386    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -filelist /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/Weather.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AssetsLibrary /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -weak_framework SystemConfiguration -Xlinker -dependency_info -Xlinker /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Objects-normal/i386/Weather_dependency_info.dat -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Weather36"E9EDAF91-2E35-4D73-9E3E-61BE3BCD5987-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CPhaseScriptExecution Copy\ www\ directory /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Script-304B58A110DAC018002A0835.sh
+s426403481.496125
+e426403482.368054
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.843s
+ouser	0m0.305s
+osys	0m0.502s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'132"PhaseScriptExecution Copy\ www\ directory build/Weather.build/Debug-iphonesimulator/Weather.build/Script-304B58A110DAC018002A0835.shd8b77f99666ab941^0c3d5e9a666ab941^-42"real	0m0.843suser	0m0.305ssys	0m0.502s3(21%IDEActivityLogMessage2@14"real	0m0.843s-426403482#1#14#-0#-----2@14"user	0m0.305s-426403482#15#14#-0#-----2@13"sys	0m0.502s-426403482#29#13#-0#-----0#0#1#--356"PhaseScriptExecution Copy\ www\ directory build/Weather.build/Debug-iphonesimulator/Weather.build/Script-304B58A110DAC018002A0835.sh    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    /bin/sh -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Script-304B58A110DAC018002A0835.sh36"3B5F6436-C33F-4464-909C-40CF00A53895-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CProcessInfoPlistFile /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Info.plist /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Info.plist
+s426403481.491363
+e426403481.494518
+r1
+xProcessInfoPlistFile
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Info.plist
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Process /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Info.plist85"ProcessInfoPlistFile build/emulator/Weather.app/Info.plist Weather/Weather-Info.plist65fe7d99666ab941^89987e99666ab941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Info.plist0000000000000000^1762"ProcessInfoPlistFile build/emulator/Weather.app/Info.plist Weather/Weather-Info.plist    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-infoPlistUtility /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Info.plist -genpkginfo /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app/Info.plist36"E82713BB-AAA8-4A24-9180-42326B50364D-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CProcessPCH /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.pch Weather/Weather-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426403502.621048
+e426403503.032224
+r1
+xProcessPCH
+x/var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.pch
+xWeather/Weather-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Weather/Weather-Prefix.pch290"ProcessPCH /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.pch Weather/Weather-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4f409fae666ab941^854208af666ab941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Prefix.pch0000000000000000^4796"ProcessPCH /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.pch Weather/Weather-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-generated-files.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-own-target-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-all-target-headers.hmap -iquote /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/Weather-project-headers.hmap -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/usr/local/lib/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/UninstalledProducts/include -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources/i386 -I/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/Weather.build/Debug-iphonesimulator/Weather.build/DerivedSources -F/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator --serialize-diagnostics /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.d -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/Weather/Weather-Prefix.pch -o /var/folders/s8/gvgvdq3j1_lc0mx3r77brmwh0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Weather-Prefix-ghxeexxsvthqdnfngrfanoruhqdn/Weather-Prefix.pch.pch36"6DE533CB-5F75-447C-B326-92C060A2E6D9-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
+CTouch /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app
+s426403505.172488
+e426403505.514510
+r1
+xTouch
+x/Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app32"Touch build/emulator/Weather.app6f472cb1666ab941^adf783b1666ab941^---0#0#1#--1442"Touch build/emulator/Weather.app    cd /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20140624/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r9d:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/fengjian/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/fengjian/.rvm/bin:/usr/local/share/npm/bin:/Users/fengjian/bin:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools:/Users/fengjian/android-sdk-and-ndk/adt-bundle-mac-x86_64-20130729/sdk:/Users/fengjian/android-sdk-and-ndk/android-ndk-r8e:/Users/fengjian/my-work/sample/cocos2d-x-project/cocos2d-x-3.2alpha0/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /usr/bin/touch -c /Users/fengjian/zhipin-fj-work/zpWeather/platforms/ios/build/emulator/Weather.app36"F5E2BDB7-0287-4184-8AB4-3DCC324AA3CF-
+bBBF258C7-FB6E-4CE8-824A-7618F91D9A15
+
