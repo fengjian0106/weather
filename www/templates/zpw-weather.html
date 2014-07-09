@@ -1,0 +1,40 @@
+<ion-view title="guangzhou">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content class="has-header">
+        <!--<ion-refresher-->
+        <!--pulling-text="Pull to refresh..."-->
+        <!--on-refresh="doRefresh()">-->
+        <!--</ion-refresher>-->
+
+        <ion-refresher
+                on-refresh="doRefresh()">
+        </ion-refresher>
+
+        <h1>wheather</h1>
+
+        <h5>webVersion -- {{webVersion}}</h5>
+        <h4>test - 3</h4>
+        <h6>{{lat}} -- {{lng}}</h6>
+
+
+        <div id="main-content">
+            <zpw-current-weather weather="realtimeWeatherInfo"></zpw-current-weather>
+            <zpw-weekly-forecast forecast="weeklyWeatherInfo"></zpw-weekly-forecast>
+        </div>
+    </ion-content>
+
+    <!-- <ion-footer-bar align-title="left" class="bar-assertive">
+    <div class="buttons">
+      <button class="button">Left Button</button>
+    </div>
+    <h1 class="title">Title!</h1>
+    <div class="buttons" ng-click="doSomething()">
+      <button class="button">Right Button</button>
+    </div>
+    </ion-footer-bar> -->
+
+
+</ion-view>
