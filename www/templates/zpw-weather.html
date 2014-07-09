@@ -3,28 +3,32 @@
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
 
-    <ion-content class="has-header">
-        <!--<ion-refresher-->
-        <!--pulling-text="Pull to refresh..."-->
-        <!--on-refresh="doRefresh()">-->
-        <!--</ion-refresher>-->
+    <div style="width: 100px; background-color: green">
+        <!--<ion-content class="has-header" zpw-background-image="http://images2.wikia.nocookie.net/__cb20110811172434/fallingskies/images/f/fd/Totoro_normal.gif" >-->
+        <ion-content class="has-header" zpw-background-image="img/default_background.jpg">
+            <!--<ion-refresher-->
+            <!--pulling-text="Pull to refresh..."-->
+            <!--on-refresh="doRefresh()">-->
+            <!--</ion-refresher>-->
 
-        <ion-refresher
-                on-refresh="doRefresh()">
-        </ion-refresher>
+            <ion-refresher
+                    on-refresh="doRefresh()">
+            </ion-refresher>
 
-        <h1>wheather</h1>
+            <h1>wheather</h1>
 
-        <h5>webVersion -- {{webVersion}}</h5>
-        <h4>test - 3</h4>
-        <h6>{{lat}} -- {{lng}}</h6>
+            <h5>webVersion -- {{webVersion}}</h5>
+            <h4>test - 3</h4>
+            <h6>{{lat}} -- {{lng}}</h6>
 
 
-        <div id="main-content">
-            <zpw-current-weather weather="realtimeWeatherInfo"></zpw-current-weather>
-            <zpw-weekly-forecast forecast="weeklyWeatherInfo"></zpw-weekly-forecast>
-        </div>
-    </ion-content>
+            <div id="main-content">
+                <zpw-current-weather weather="realtimeWeatherInfo"></zpw-current-weather>
+                <zpw-weekly-forecast forecast="weeklyWeatherInfo"></zpw-weekly-forecast>
+            </div>
+        </ion-content>
+    </div>
+
 
     <!-- <ion-footer-bar align-title="left" class="bar-assertive">
     <div class="buttons">
