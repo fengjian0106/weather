@@ -1,0 +1,13 @@
+.zpw-weather-page {
+
+}
+
+.zpw-weather-page__content__weather-info__weekly-weather {
+  @extend %flexbox;
+  @include flex-direction(row);
+  @include justify-content(space-between);
+  @include align-items(flex-end);
+
+  background-color: rgba(1, 1, 1, 0.3);
+  //  border-top:1px solid #ffffff;
+}

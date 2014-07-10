@@ -18,7 +18,15 @@
             <div class="zpw-weather-page__content__weather-info">
                 <zpw-current-weather realtime-weather="realtimeWeatherInfo" today-weather="todayWeatherInfo"
                                      date="todayDate"></zpw-current-weather>
-                <zpw-weekly-forecast forecast="weeklyWeatherInfo"></zpw-weekly-forecast>
+
+                <!--<zpw-weekly-forecast forecast="weeklyWeatherInfo"></zpw-weekly-forecast>-->
+
+                <div class="zpw-weather-page__content__weather-info__weekly-weather">
+                    <div ng-repeat="weather in weeklyWeatherInfo">
+                        <zpw-daily-weather weather="weather" index="$index"></zpw-daily-weather>
+                    </div>
+                </div>
+
             </div>
         </div>
 
