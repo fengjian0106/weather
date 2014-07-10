@@ -2,8 +2,13 @@
 
 }
 
+.zpw-weather-page__content__weather-info__current-weather {
+//  background-color: hotpink;
+}
+
 .zpw-weather-page__content__weather-info__weekly-weather {
   @extend %flexbox;
+//  @include flex-direction(row-reverse);
   @include flex-direction(row);
   @include justify-content(space-between);
   @include align-items(flex-end);

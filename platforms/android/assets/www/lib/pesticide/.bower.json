@@ -1,0 +1,14 @@
+{
+  "name": "pesticide",
+  "homepage": "https://github.com/mrmrs/pesticide",
+  "version": "0.3.0",
+  "_release": "0.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.0",
+    "commit": "a7639ed8ee25b4e883ff424e5c32893b6d9e5cad"
+  },
+  "_source": "git://github.com/mrmrs/pesticide.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/mrmrs/pesticide"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "sass-flex-mixin",
+  "homepage": "https://github.com/mastastealth/sass-flex-mixin",
+  "_release": "f87ef7fcc3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f87ef7fcc3fa9edaa45a6a7139079868126452e4"
+  },
+  "_source": "git://github.com/mastastealth/sass-flex-mixin.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/mastastealth/sass-flex-mixin"
+}
