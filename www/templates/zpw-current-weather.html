@@ -14,4 +14,9 @@
         <div class="zpw-current-weather__today-temp"><span ng-bind="todayWeather.temp1"></span> ~ {{todayWeather.temp2}}
         </div>
     </div>
+
+    <div class="zpw-current-weather__bottom-container">
+        <div class="zpw-current-weather__humidity">湿度{{realtimeWeather.SD}}</div>
+        <div class="zpw-current-weather__wind">{{realtimeWeather.WD + realtimeWeather.WS}}</div>
+    </div>
 </div>
