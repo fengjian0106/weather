@@ -7244,6 +7244,10 @@ a.button {
   margin-right: 3px;
   margin-left: 15px; }
 
+.zpw-current-weather__humidity {
+  margin-right: 3px;
+  margin-left: 15px; }
+
 .zpw-weather-page__content__weather-info__weekly-weather {
   -webkit-box-direction: normal;
   -webkit-box-orient: horizontal;
