@@ -28,8 +28,12 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 //@import "www/lib/ionic/scss/ionic";
 @import "../www/lib/ionic/scss/ionic";
 
+//flex mixin
+@import "../www/lib/sass-flex-mixin/flex";
+
 
 // app scss
 @import "zpw_current_weather";
 @import "zpw_weather_page";
+@import "zpw_daily_weather";
 

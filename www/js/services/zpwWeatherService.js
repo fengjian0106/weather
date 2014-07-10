@@ -150,16 +150,16 @@ angular.module('zpWeather')
                 $http.jsonp('http://query.yahooapis.com/v1/public/yql?', {
                     params: {
                         q: 'select * from json where url="http://mobile.weather.com.cn/data/forecast/' + cityCode + '.html"',
-                        format: 'json',
+                        format: 'json',//fuck，这个参数，会让返回的数据再被封装一层，最外层是的key是json，WTF
                         callback: 'JSON_CALLBACK'
                     }
                 })
                     .success(function (data, status, headers, config) {
                         console.info(data)
-                        deferred.resolve(data.query.results);
+                        deferred.resolve(data.query.results.json.f.f1);// this is a array
                     })
                     .error(function (err, status, headers, config) {
-                        console.log('Error retrieving RealtimeWeather');
+                        console.log('Error retrieving WeeklyWeather');
                         deferred.reject(err);
                     });
 
