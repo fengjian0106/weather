@@ -1,0 +1,57 @@
+/**
+1.位置属性(position, top, right, z-index, display, float等)
+2.大小(width, height, padding, margin)
+3.文字系列(font, line-height, letter-spacing, color- text-align等)
+4.背景(background, border等)
+5.其他(animation, transition等)
+*/
+@import "../www/lib/sass-flex-mixin/flex";
+
+.zpw-current-weather {
+  color: #ffffff;
+  //  background-color: sandybrown;
+}
+
+.zpw-current-weather__top-container {
+  @extend %flexbox;
+  @include flex-direction(row-reverse);
+  @include align-items(flex-end);
+
+  //  background-color: hotpink;
+}
+
+.zpw-current-weather__top-container__realtime-temp {
+  height: 65px;
+  margin-left: 5px;
+  font-size: 70px;
+  line-height: 65px;
+
+  //  background-color: green;
+}
+
+.zpw-current-weather__top-container__weather-icon {
+  width: 44px;
+  height: 44px;
+  background-color: deepskyblue;
+}
+
+.zpw-current-weather__top-container__info {
+  height: 18px;
+  font-size: 13px;
+  line-height: 13px;
+
+  //  background-color: red;
+}
+
+.zpw-current-weather__bottom-container {
+  @extend %flexbox;
+  @include flex-direction(row-reverse);
+  @include align-items(flex-end);
+
+  font-size: 13px;
+}
+
+.zpw-current-weather__date {
+  margin-right: 3px;
+  margin-left: 15px;
+}

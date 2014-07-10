@@ -1,11 +1,17 @@
-<div id="current-weather">
-    <!-- <h5><weather-icon icon="current.icon" id="current-icon"></weather-icon> {{current.currently.summary}}</h5> -->
+<div class="zpw-current-weather">
+    <div class="zpw-current-weather__top-container">
+        <div class="zpw-current-weather__top-container__realtime-temp">{{realtimeWeather.temp}}℃</div>
 
-    <!--<h5>-->
-        <!--<span id="temp-hi"><i class="icon ion-arrow-up-c"></i> <span ng-bind="highTemp"></span>&deg;</span>-->
-        <!--<span id="temp-lo"><i class="icon ion-arrow-down-c"></i> <span ng-bind="lowTemp"></span>&deg;</span>-->
-    <!--</h5>-->
+        <div>
+            <div class="zpw-current-weather__top-container__weather-icon">todo~</div>
+            <div class="zpw-current-weather__top-container__info">{{todayWeather.weather}}</div>
+        </div>
+    </div>
 
-    <h1 class="current-temp"><span ng-bind="weather.temp1"></span> ~ {{weather.temp2}}</h1>
-    <h6>city - {{weather.cityName}}</h6>
+    <div class="zpw-current-weather__bottom-container">
+        <!--//refer to http://jsfiddle.net/CkBWL/-->
+        <div class="zpw-current-weather__date">{{date | date:'MM/dd'}}</div>
+        <div class="zpw-current-weather__today-temp"><span ng-bind="todayWeather.temp1"></span> ~ {{todayWeather.temp2}}
+        </div>
+    </div>
 </div>

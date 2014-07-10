@@ -7,7 +7,9 @@ angular.module('zpWeather')
             replace: true,
             templateUrl: 'templates/zpw-current-weather.html',
             scope: {
-                weather: '='
+                realtimeWeather: '=',
+                todayWeather: '=',
+                date: '='
             }
         }
     });

@@ -8,7 +8,6 @@ angular.module('zpWeather')
 
             $scope.webVersion = '0.1.2';
 
-            // alert('WeatherCtrl');
 
             $cordovaGeolocation.getCurrentPosition().then(function (position) {
                 // alert('get geo');
@@ -37,21 +36,32 @@ angular.module('zpWeather')
                 // Active updates of the position here
             });
 
+            /////////
+            $scope.todayDate = new Date();
+            console.log($scope.todayDate);
 
-            zpwWeatherService.getRealtimeWeather('101130405').then(function (data) {
+            zpwWeatherService.getRealtimeWeather('101280101').then(function (data) {
                 $scope.realtimeWeatherInfo = data;
             });
 
-            zpwWeatherService.getWeeklyWeather('101130405').then(function (data) {
+            zpwWeatherService.getTodayWeather('101280101').then(function (data) {
+                $scope.todayWeatherInfo = data;
+            });
+
+            zpwWeatherService.getWeeklyWeather('101280101').then(function (data) {
                 $scope.weeklyWeatherInfo = data;
             });
 
 
             $scope.doRefresh = function () {
-                zpwWeatherService.getRealtimeWeather('101130405').then(function (data) {
+                zpwWeatherService.getRealtimeWeather('101280101').then(function (data) {
                     $scope.realtimeWeatherInfo = data;
                 }).then(function () {
-                    zpwWeatherService.getWeeklyWeather('101130405').then(function (data) {
+                    zpwWeatherService.getTodayWeather('101280101').then(function (data) {
+                        $scope.todayWeatherInfo = data;
+                    });
+                }).then(function () {
+                    zpwWeatherService.getWeeklyWeather('101280101').then(function (data) {
                         $scope.weeklyWeatherInfo = data;
                     });
                 }).finally(function () {
@@ -61,4 +71,18 @@ angular.module('zpWeather')
             };
 
 
+            // Delay so we are in the DOM and can calculate sizes
+            $timeout(function () {
+                var windowHeight = window.innerHeight,
+                    navBarHeight = document.querySelector('.zpw-side-menu__nav-bar').offsetHeight,
+                    /**
+                     *  纯技术角度来看，weatherInfoH的值，应该就用代码动态查询出来，但是这个需要timeout延迟一段时间后，才能获取到真正的非零值，
+                     所以这里用一点magic code，用代码直接写出这个高度值，而且这个高度值，是在_zpw-weather-page.scss中预设好的
+                     weatherInfoH = document.querySelector('.zpw-weather-page__content__weather-info').offsetHeight,
+                     * */
+                    weatherInfoH = 88 + 66,
+                    marginTop = windowHeight - navBarHeight - weatherInfoH - 10;
+
+                angular.element(document.querySelector('.zpw-weather-page__content__weather-info')).css('padding-top', marginTop + 'px');
+            });
         }]);
