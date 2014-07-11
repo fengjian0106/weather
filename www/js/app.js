@@ -19,72 +19,26 @@ angular.module('zpWeather', ['ionic', 'ngCordova'])
             }
         });
     })
-
-    .config(function ($httpProvider) {
-        $httpProvider.defaults.useXDomain = true;
-        delete $httpProvider.defaults.headers.common['X-Requested-With'];
-    })
-
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('app', {
                 url: "/app",
                 abstract: true,
-                templateUrl: "templates/menu.html",
-                controller: 'AppCtrl'
+                templateUrl: "templates/zpw-citys.html",
+                controller: 'zpwCitysCtrl'
             })
 
             .state('app.weather', {
-                url: "/weather",
+                url: "/weather?cityCode&cityName",
                 views: {
                     'menuContent': {
                         templateUrl: "templates/zpw-weather.html",
-                        controller: 'ZpwWeatherCtrl'
-                    }
-                }
-            })
-
-            .state('app.search', {
-                url: "/search",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/search.html"
-                    }
-                }
-            })
-
-            .state('app.browse', {
-                url: "/browse",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/browse.html"
-                    }
-                }
-            })
-            .state('app.playlists', {
-                url: "/playlists",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/playlists.html",
-                        controller: 'PlaylistsCtrl'
-                    }
-                }
-            })
-
-            .state('app.single', {
-                url: "/playlists/:playlistId",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/playlist.html",
-                        controller: 'PlaylistCtrl'
+                        controller: 'zpwWeatherCtrl'
                     }
                 }
             });
 
         // if none of the above states are matched, use this as the fallback
+        //TODO, use config file to find city info, and set as default city
         $urlRouterProvider.otherwise('/app/weather');
     });
-
-
-// cheate all modules here, and in other files, just get module -- fengjian
-// angular.module('starter.controllers', ['ngCordova']);
