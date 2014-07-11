@@ -1,11 +1,13 @@
 'use strict';
 
 angular.module('zpWeather')
-    .controller('ZpwWeatherCtrl',
-    ['$scope', '$cordovaGeolocation', 'zpwWeatherService', '$ionicModal', '$timeout',
-        function ($scope, $cordovaGeolocation, zpwWeatherService, $ionicModal, $timeout) {
+    .controller('zpwWeatherCtrl',
+    ['$scope', '$stateParams', '$cordovaGeolocation', 'zpwWeatherService', '$ionicModal', '$timeout',
+        function ($scope, $stateParams, $cordovaGeolocation, zpwWeatherService, $ionicModal, $timeout) {
+            var cityCode = $stateParams.cityCode,
+                cityName = $stateParams.cityName;
 
-
+            $scope.cityName = cityName;
             $scope.webVersion = '0.1.2';
 
 
@@ -40,28 +42,28 @@ angular.module('zpWeather')
             $scope.todayDate = new Date();
             console.log($scope.todayDate);
 
-            zpwWeatherService.getRealtimeWeather('101280101').then(function (data) {
+            zpwWeatherService.getRealtimeWeather(cityCode).then(function (data) {
                 $scope.realtimeWeatherInfo = data;
             });
 
-            zpwWeatherService.getTodayWeather('101280101').then(function (data) {
+            zpwWeatherService.getTodayWeather(cityCode).then(function (data) {
                 $scope.todayWeatherInfo = data;
             });
 
-            zpwWeatherService.getWeeklyWeather('101280101').then(function (data) {
+            zpwWeatherService.getWeeklyWeather(cityCode).then(function (data) {
                 $scope.weeklyWeatherInfo = data;
             });
 
 
             $scope.doRefresh = function () {
-                zpwWeatherService.getRealtimeWeather('101280101').then(function (data) {
+                zpwWeatherService.getRealtimeWeather(cityCode).then(function (data) {
                     $scope.realtimeWeatherInfo = data;
                 }).then(function () {
-                    zpwWeatherService.getTodayWeather('101280101').then(function (data) {
+                    zpwWeatherService.getTodayWeather(cityCode).then(function (data) {
                         $scope.todayWeatherInfo = data;
                     });
                 }).then(function () {
-                    zpwWeatherService.getWeeklyWeather('101280101').then(function (data) {
+                    zpwWeatherService.getWeeklyWeather(cityCode).then(function (data) {
                         $scope.weeklyWeatherInfo = data;
                     });
                 }).finally(function () {
