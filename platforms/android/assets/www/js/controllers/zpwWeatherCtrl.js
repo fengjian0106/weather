@@ -80,7 +80,7 @@ angular.module('zpWeather')
                      所以这里用一点magic code，用代码直接写出这个高度值，而且这个高度值，是在_zpw-weather-page.scss中预设好的
                      weatherInfoH = document.querySelector('.zpw-weather-page__content__weather-info').offsetHeight,
                      * */
-                    weatherInfoH = 85 + 130,
+                    weatherInfoH = 105 + 130,
                     marginTop = windowHeight - navBarHeight - weatherInfoH;
 
                 angular.element(document.querySelector('.zpw-weather-page__content__weather-info')).css('padding-top', marginTop + 'px');

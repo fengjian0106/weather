@@ -13,8 +13,8 @@
 
 .zpw-current-weather__top-container {
   @extend %flexbox;
-  @include flex-direction(row-reverse);
-  @include justify-content(flex-start);
+  @include flex-direction(row);
+  @include justify-content(flex-end);
   @include align-items(flex-end);
 
   //  background-color: hotpink;
@@ -45,8 +45,8 @@
 
 .zpw-current-weather__bottom-container {
   @extend %flexbox;
-  @include flex-direction(row-reverse);
-  @include justify-content(flex-start);
+  @include flex-direction(row);
+  @include justify-content(flex-end);
   @include align-items(flex-end);
 
   font-size: 13px;
