@@ -2,16 +2,48 @@
 
 angular.module('zpWeather')
     .controller('zpwWeatherCtrl',
-    ['$scope', '$stateParams', '$cordovaGeolocation', 'zpwWeatherService', '$ionicModal', '$timeout',
-        function ($scope, $stateParams, $cordovaGeolocation, zpwWeatherService, $ionicModal, $timeout) {
-            var cityCode = $stateParams.cityCode,
-                cityName = $stateParams.cityName;
+    ['$scope', '$stateParams', '$cordovaGeolocation', 'zpwWeatherService', '$ionicModal', '$timeout', 'zpwFocusCitiesStorage',
+        function ($scope, $stateParams, $cordovaGeolocation, zpwWeatherService, $ionicModal, $timeout, zpwFocusCitiesStorage) {
+            $scope.doRefresh = function () {
+                zpwWeatherService.getRealtimeWeather($scope.currentCity.d1).then(function (data) {
+                    $scope.realtimeWeatherInfo = data;
+                }).then(function () {
+                    zpwWeatherService.getTodayWeather($scope.currentCity.d1).then(function (data) {
+                        $scope.todayWeatherInfo = data;
+                    });
+                }).then(function () {
+                    zpwWeatherService.getWeeklyWeather($scope.currentCity.d1).then(function (data) {
+                        $scope.weeklyWeatherInfo = data;
+                    });
+                }).finally(function () {
+                    // Stop the ion-refresher from spinning
+                    $scope.$broadcast('scroll.refreshComplete');
+                });
+            };
 
-            $scope.cityName = cityName;
-            $scope.webVersion = '0.1.2';
+            /////////
+            $scope.todayDate = new Date();
+            console.log($scope.todayDate);
+
+            $scope.currentCity = zpwFocusCitiesStorage.getCurrentCity();
+            if ($scope.currentCity !== null) {
+                $scope.doRefresh();
+            }
+
+            $scope.$on('zpw.currentCity.updated', function (event, city) {
+                $scope.currentCity = city;
+                if ($scope.currentCity !== null) {
+                    $scope.doRefresh();
+                }
+            });
 
 
-            $cordovaGeolocation.getCurrentPosition().then(function (position) {
+//            $scope.webVersion = '0.1.2';
+
+
+            /**
+             *
+             $cordovaGeolocation.getCurrentPosition().then(function (position) {
                 // alert('get geo');
                 // Position here: position.coords.latitude, position.coords.longitude
                 // alert('Latitude: '          + position.coords.latitude          + '\n' +
@@ -30,50 +62,23 @@ angular.module('zpWeather')
                 alert(err);
             });
 
-            $cordovaGeolocation.watchPosition().then(function () {
+             $cordovaGeolocation.watchPosition().then(function () {
                 // Not currently used
             }, function (err) {
                 // An error occured. Show a message to the user
             }, function (position) {
                 // Active updates of the position here
             });
-
-            /////////
-            $scope.todayDate = new Date();
-            console.log($scope.todayDate);
-
-            zpwWeatherService.getRealtimeWeather(cityCode).then(function (data) {
-                $scope.realtimeWeatherInfo = data;
-            });
-
-            zpwWeatherService.getTodayWeather(cityCode).then(function (data) {
-                $scope.todayWeatherInfo = data;
-            });
-
-            zpwWeatherService.getWeeklyWeather(cityCode).then(function (data) {
-                $scope.weeklyWeatherInfo = data;
-            });
+             * */
 
 
-            $scope.doRefresh = function () {
-                zpwWeatherService.getRealtimeWeather(cityCode).then(function (data) {
-                    $scope.realtimeWeatherInfo = data;
-                }).then(function () {
-                    zpwWeatherService.getTodayWeather(cityCode).then(function (data) {
-                        $scope.todayWeatherInfo = data;
-                    });
-                }).then(function () {
-                    zpwWeatherService.getWeeklyWeather(cityCode).then(function (data) {
-                        $scope.weeklyWeatherInfo = data;
-                    });
-                }).finally(function () {
-                    // Stop the ion-refresher from spinning
-                    $scope.$broadcast('scroll.refreshComplete');
-                });
-            };
 
 
-            // Delay so we are in the DOM and can calculate sizes
+
+
+
+
+                // Delay so we are in the DOM and can calculate sizes
             $timeout(function () {
                 var windowHeight = window.innerHeight,
                     navBarHeight = document.querySelector('.zpw-side-menu__nav-bar').offsetHeight,
