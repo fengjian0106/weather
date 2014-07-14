@@ -1,4 +1,4 @@
-<ion-side-menus class="zpw-side-menu">
+<ion-side-menus class="zpw-cities-page">
 
     <ion-pane ion-side-menu-content drag-content=false>
         <ion-nav-bar class="bar-stable nav-title-slide-ios7 zpw-side-menu__nav-bar">
@@ -17,23 +17,13 @@
         <ion-content class="has-header">
             <ion-list>
                 <!--<ion-item nav-clear menu-close ng-click="login()">-->
-                    <!--Login-->
+                <!--Login-->
                 <!--</ion-item>-->
-                <ion-item nav-clear menu-close href="#/app/weather?cityCode=101280101&cityName=guangzhou">
-                    guangzhou
+
+                <ion-item ng-repeat="city in focusCities" href="#/app/weather" ng-click="cityClicked($index)">
+                    {{city.d2}} - {{city.d4}}
                 </ion-item>
-                <ion-item nav-clear menu-close href="#/app/weather?cityCode=101130101&cityName=乌鲁木齐">
-                    乌鲁木齐
-                </ion-item>
-                <!--<ion-item nav-clear menu-close href="#/app/search">-->
-                    <!--Search-->
-                <!--</ion-item>-->
-                <!--<ion-item nav-clear menu-close href="#/app/browse">-->
-                    <!--Browse-->
-                <!--</ion-item>-->
-                <!--<ion-item nav-clear menu-close href="#/app/playlists">-->
-                    <!--Playlists-->
-                <!--</ion-item>-->
+
             </ion-list>
         </ion-content>
     </ion-side-menu>

@@ -5,7 +5,6 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
 angular.module('zpWeather', ['ionic', 'ngCordova'])
-
     .run(function ($ionicPlatform) {
         $ionicPlatform.ready(function () {
             // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -19,17 +18,30 @@ angular.module('zpWeather', ['ionic', 'ngCordova'])
             }
         });
     })
+//    .constant('WEATHER_ICONS', {
+//        'partlycloudy': 'ion-ios7-partlysunny-outline',
+//        'mostlycloudy': 'ion-ios7-partlysunny-outline',
+//        'cloudy': 'ion-ios7-cloudy-outline',
+//        'rain': 'ion-ios7-rainy-outline',
+//        'tstorms': 'ion-ios7-thunderstorm-outline',
+//        'sunny': 'ion-ios7-sunny-outline',
+//        'clear-day': 'ion-ios7-sunny-outline',
+//        'nt_clear': 'ion-ios7-moon-outline',
+//        'clear-night': 'ion-ios7-moon-outline'
+//    })
+//    .constant('DBK_FOCUS_CITIES', '__db_key_focus_cities')
+
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('app', {
                 url: "/app",
                 abstract: true,
-                templateUrl: "templates/zpw-citys.html",
-                controller: 'zpwCitysCtrl'
+                templateUrl: "templates/zpw-cities.html",
+                controller: 'zpwCitiesCtrl'
             })
 
             .state('app.weather', {
-                url: "/weather?cityCode&cityName",
+                url: "/weather",
                 views: {
                     'menuContent': {
                         templateUrl: "templates/zpw-weather.html",
@@ -39,6 +51,5 @@ angular.module('zpWeather', ['ionic', 'ngCordova'])
             });
 
         // if none of the above states are matched, use this as the fallback
-        //TODO, use config file to find city info, and set as default city
         $urlRouterProvider.otherwise('/app/weather');
     });

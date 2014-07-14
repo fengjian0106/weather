@@ -1,9 +1,29 @@
 'use strict';
 
 angular.module('zpWeather')
-    .controller('zpwCitysCtrl',
-    ['$scope', '$ionicModal', '$timeout',
-        function ($scope, $ionicModal, $timeout) {
+    .controller('zpwCitiesCtrl',
+    ['$scope', '$rootScope', '$ionicModal', '$timeout', 'zpwFocusCitiesStorage', '$state',
+        function ($scope, $rootScope, $ionicModal, $timeout, zpwFocusCitiesStorage, $state) {
+            ///////////////////////////////////////////////////////////
+            $scope.focusCities = zpwFocusCitiesStorage.getFocusCities();
+
+            $scope.addCity = function () {
+                $ionicModal.fromTemplateUrl('templates/zpw-city-sel.html', {
+                    animation: 'slide-in-up'
+                }).then(function (modal) {
+                    $rootScope.citySelMoal = modal;
+                    modal.show();
+                });
+            };
+
+            $scope.cityClicked = function (index) {
+                var city = $scope.focusCities[index];
+
+                zpwFocusCitiesStorage.setCurrentCity(city);
+            };
+
+
+            ///////////////////////////////////////////////////////////Just for test -- fj
             // Form data for the login modal
             $scope.loginData = {};
 
@@ -35,8 +55,5 @@ angular.module('zpWeather')
                 }, 1000);
             };
 
-            ///////////////////////////////////////////////////////////
-            $scope.addCity = function () {
-                alert('todo, show modal to add city');
-            }
+
         }]);

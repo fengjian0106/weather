@@ -1,0 +1,18 @@
+<ion-pane ng-controller="zpwCitySelCtrl" class="zpw-city-sel-modal">
+    <ion-header-bar>
+        <h1 class="title">choose city</h1>
+
+        <div class="buttons">
+            <button class="button button-clear" ng-click="close()">Close</button>
+        </div>
+    </ion-header-bar>
+
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="city in cities" ng-click="itemClicked($index)">
+                {{city.d2}} - {{city.d4}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+
+</ion-pane>

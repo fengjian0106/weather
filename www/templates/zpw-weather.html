@@ -1,4 +1,4 @@
-<ion-view title="{{cityName}}" class="zpw-weather-page">
+<ion-view title="{{currentCity.d2}}" class="zpw-weather-page">
     <ion-nav-buttons side="left">
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
@@ -17,9 +17,8 @@
         <div>
             <div class="zpw-weather-page__content__weather-info">
                 <zpw-current-weather realtime-weather="realtimeWeatherInfo" today-weather="todayWeatherInfo"
-                                     date="todayDate" class="zpw-weather-page__content__weather-info__current-weather"></zpw-current-weather>
-
-                <!--<zpw-weekly-forecast forecast="weeklyWeatherInfo"></zpw-weekly-forecast>-->
+                                     date="todayDate"
+                                     class="zpw-weather-page__content__weather-info__current-weather"></zpw-current-weather>
 
                 <div class="zpw-weather-page__content__weather-info__weekly-weather">
                     <div ng-repeat="weather in weeklyWeatherInfo">
