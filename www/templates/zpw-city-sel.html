@@ -1,4 +1,4 @@
-<ion-pane ng-controller="zpwCitySelCtrl" class="zpw-city-sel-modal">
+<ion-pane ng-controller="zpwCitySelCtrl" class="zpw-city-sel-page">
     <ion-header-bar>
         <h1 class="title">choose city</h1>
 
@@ -8,11 +8,15 @@
     </ion-header-bar>
 
     <ion-content>
-        <ion-list>
-            <ion-item ng-repeat="city in cities" ng-click="itemClicked($index)">
+        <div class="zpw-city-sel-page__list">
+            <div class="zpw-city-sel-page__list__item"
+                 collection-repeat="city in cities"
+                 collection-item-height="getItemHeight(city)"
+                 collection-item-width="getItemWidth(city)"
+                 ng-click="itemClicked($index)">
                 {{city.d2}} - {{city.d4}}
-            </ion-item>
-        </ion-list>
+            </div>
+        </div>
     </ion-content>
 
 </ion-pane>
