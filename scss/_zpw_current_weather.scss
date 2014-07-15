@@ -29,14 +29,24 @@
   //  background-color: green;
 }
 
-.zpw-current-weather__top-container__weather-icon {
-  width: 44px;
-  height: 44px;
-  background-color: deepskyblue;
+.zpw-current-weather__top-container__first-item {
+  @extend %flexbox;
+  @include flex-direction(column);
+  //  @include justify-content(flex);
+  @include align-items(flex-end);
+
+  //  background-color: deeppink;
 }
 
-.zpw-current-weather__top-container__info {
+.zpw-current-weather__top-container__first-item__weather-icon {
+  width: 44px;
+  height: 44px;
+  //  background-color: deepskyblue;
+}
+
+.zpw-current-weather__top-container__first-item__info {
   height: 18px;
+  margin-right: 5px;
   font-size: 13px;
   line-height: 13px;
 
