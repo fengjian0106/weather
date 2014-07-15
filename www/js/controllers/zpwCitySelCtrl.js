@@ -26,4 +26,10 @@ angular.module('zpWeather')
             };
 
 
+            $scope.getItemHeight = function (city) {
+                return 44;
+            };
+            $scope.getItemWidth = function (city) {
+                return '100%';
+            };
         }]);
