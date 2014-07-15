@@ -5,5 +5,9 @@ dist
 www/lib
 platforms/ios/build
 platforms/ios/www
+platforms/android/ant-build
+platforms/android/ant-gen
+platforms/android/assets
+platforms/android/bin
 #屏蔽webstormIDE
 .idea
