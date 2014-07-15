@@ -2,8 +2,8 @@
 
 angular.module('zpWeather')
     .controller('zpwCitiesCtrl',
-    ['$scope', '$rootScope', '$ionicModal', '$timeout', 'zpwFocusCitiesStorage', '$state',
-        function ($scope, $rootScope, $ionicModal, $timeout, zpwFocusCitiesStorage, $state) {
+    ['$scope', '$rootScope', '$ionicModal', '$timeout', 'zpwFocusCitiesStorage', '$state', '$ionicSideMenuDelegate',
+        function ($scope, $rootScope, $ionicModal, $timeout, zpwFocusCitiesStorage, $state, $ionicSideMenuDelegate) {
             ///////////////////////////////////////////////////////////
             $scope.focusCities = zpwFocusCitiesStorage.getFocusCities();
 
@@ -20,6 +20,7 @@ angular.module('zpWeather')
                 var city = $scope.focusCities[index];
 
                 zpwFocusCitiesStorage.setCurrentCity(city);
+                $ionicSideMenuDelegate.toggleLeft(false);
             };
 
 
