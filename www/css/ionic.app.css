@@ -7226,7 +7226,9 @@ a.button {
 
 .zpw-current-weather__top-container__first-item__weather-icon {
   width: 44px;
-  height: 44px; }
+  height: 44px;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .zpw-current-weather__top-container__first-item__info {
   height: 18px;

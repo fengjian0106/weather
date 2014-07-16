@@ -10,6 +10,13 @@ angular.module('zpWeather')
                 }).then(function () {
                     zpwWeatherService.getTodayWeather($scope.currentCity.d1).then(function (data) {
                         $scope.todayWeatherInfo = data;
+
+
+                        //http://stackoverflow.com/questions/2686855/is-there-a-javascript-function-that-can-pad-a-string-to-get-to-a-determined-leng
+                        String.prototype.paddingLeft = function (paddingValue) {
+                            return String(paddingValue + this).slice(-paddingValue.length);
+                        };
+                        $scope.todayWeatherInfo.onlineImg = 'http://mobile.weather.com.cn/images/day/' + $scope.todayWeatherInfo.img1.replace('d', '').replace('.gif', '').paddingLeft('00') + '.png';
                     });
                 }).then(function () {
                     zpwWeatherService.getWeeklyWeather($scope.currentCity.d1).then(function (data) {
