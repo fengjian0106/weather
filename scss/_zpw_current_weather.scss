@@ -41,7 +41,9 @@
 .zpw-current-weather__top-container__first-item__weather-icon {
   width: 44px;
   height: 44px;
-  //  background-color: deepskyblue;
+//    background-color: deepskyblue;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .zpw-current-weather__top-container__first-item__info {

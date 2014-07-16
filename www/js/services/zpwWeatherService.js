@@ -74,15 +74,13 @@ angular.module('zpWeather')
                         format: 'json',
                         callback: 'JSON_CALLBACK'
                     }
-                })
-                    .success(function (data, status, headers, config) {
-                        console.info(data);
-                        deferred.resolve(data.query.results.weatherinfo);
-                    })
-                    .error(function (err, status, headers, config) {
-                        console.log('Error retrieving RealtimeWeather');
-                        deferred.reject(err);
-                    });
+                }).success(function (data, status, headers, config) {
+                    console.info(data);
+                    deferred.resolve(data.query.results.weatherinfo);
+                }).error(function (err, status, headers, config) {
+                    console.log('Error retrieving RealtimeWeather');
+                    deferred.reject(err);
+                });
 
                 return deferred.promise;
             }
@@ -130,38 +128,39 @@ angular.module('zpWeather')
                         format: 'json',
                         callback: 'JSON_CALLBACK'
                     }
-                })
-                    .success(function (data, status, headers, config) {
-                        console.info(data);
-                        deferred.resolve(data.query.results.weatherinfo);
-                    })
-                    .error(function (err, status, headers, config) {
-                        console.log('Error retrieving todayWeather');
-                        deferred.reject(err);
-                    });
+                }).success(function (data, status, headers, config) {
+                    console.info(data);
+                    deferred.resolve(data.query.results.weatherinfo);
+                }).error(function (err, status, headers, config) {
+                    console.log('Error retrieving todayWeather');
+                    deferred.reject(err);
+                });
 
                 return deferred.promise;
             }
 
 
             function getWeeklyWeather(cityCode) {
-                var deferred = $q.defer();
+                var deferred = $q.defer(),
+                    ct = (new Date()).getTime();
 
                 $http.jsonp('http://query.yahooapis.com/v1/public/yql?', {
                     params: {
-                        q: 'select * from json where url="http://mobile.weather.com.cn/data/forecast/' + cityCode + '.html"',
+                        //这里使用的是ip地址，而不是域名。使用域名的时候，server端会返回一个错误的日期对应的天气信息，抓包分析过，
+                        //用域名的时候，设置一个header字段也可以得到正确的信息，但是在yql的基础上，设置header，很麻烦，而且也需要一台额外的server。
+                        //后来发现用ip地址，就没有这个问题
+                        q: 'select * from json where url="http://61.4.184.52/data/forecast/' + cityCode + '.html?_=' + ct + '"',
                         format: 'json',//fuck，这个参数，会让返回的数据再被封装一层，最外层是的key是json，WTF
                         callback: 'JSON_CALLBACK'
                     }
-                })
-                    .success(function (data, status, headers, config) {
-                        console.info(data)
-                        deferred.resolve(data.query.results.json.f.f1);// this is a array
-                    })
-                    .error(function (err, status, headers, config) {
-                        console.log('Error retrieving WeeklyWeather');
-                        deferred.reject(err);
-                    });
+                }).success(function (data, status, headers, config) {
+                    console.info(data)
+                    deferred.resolve(data.query.results.json.f.f1);// this is a array
+                }).error(function (err, status, headers, config) {
+                    console.log('Error retrieving WeeklyWeather');
+                    console.info(status);
+                    deferred.reject(err);
+                });
 
                 return deferred.promise;
             }

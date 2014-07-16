@@ -1,12 +1,12 @@
 <div class="zpw-current-weather">
     <div class="zpw-current-weather__top-container">
         <div class="zpw-current-weather__top-container__first-item">
-            <!--<div class="zpw-current-weather__top-container__weather-icon" style="background-image: url(http://m.weather.com.cn/img/{{todayWeather.img1}};"></div>-->
-            <!--//why background-image can not work-->
+            <div class="zpw-current-weather__top-container__first-item__weather-icon"
+                 style="background-image: url({{todayWeather.onlineImg}});"></div>
+            <!--<zpw-weather-icon icon-index-str="todayWeather.img1.replace('d', '').replace('.gif', '');"-->
+            <!--class="zpw-current-weather__top-container__first-item__weather-icon"></zpw-weather-icon>-->
 
 
-            <zpw-weather-icon icon-index-str="todayWeather.img1.replace('d', '').replace('.gif', '');"
-                              class="zpw-current-weather__top-container__first-item__weather-icon"></zpw-weather-icon>
             <div class="zpw-current-weather__top-container__first-item__info">{{todayWeather.weather}}</div>
         </div>
         <div class="zpw-current-weather__top-container__realtime-temp">{{realtimeWeather.temp}}℃</div>
