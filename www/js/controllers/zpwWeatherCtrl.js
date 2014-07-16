@@ -2,30 +2,62 @@
 
 angular.module('zpWeather')
     .controller('zpwWeatherCtrl',
-    ['$scope', '$stateParams', '$cordovaGeolocation', 'zpwWeatherService', '$ionicModal', '$timeout', 'zpwFocusCitiesStorage',
-        function ($scope, $stateParams, $cordovaGeolocation, zpwWeatherService, $ionicModal, $timeout, zpwFocusCitiesStorage) {
+    ['$scope', '$stateParams', '$q', '$cordovaGeolocation', 'zpwWeatherService', '$ionicModal', '$timeout', 'zpwFocusCitiesStorage',
+        function ($scope, $stateParams, $q, $cordovaGeolocation, zpwWeatherService, $ionicModal, $timeout, zpwFocusCitiesStorage) {
             $scope.doRefresh = function () {
-                zpwWeatherService.getRealtimeWeather($scope.currentCity.d1).then(function (data) {
-                    $scope.realtimeWeatherInfo = data;
-                }).then(function () {
-                    zpwWeatherService.getTodayWeather($scope.currentCity.d1).then(function (data) {
-                        $scope.todayWeatherInfo = data;
+                var rtwPromise, twPromise, wwPromise;
 
+                rtwPromise = zpwWeatherService.getRealtimeWeather($scope.currentCity.d1);
+                twPromise = zpwWeatherService.getTodayWeather($scope.currentCity.d1);
+                wwPromise = zpwWeatherService.getWeeklyWeather($scope.currentCity.d1);
 
-                        //http://stackoverflow.com/questions/2686855/is-there-a-javascript-function-that-can-pad-a-string-to-get-to-a-determined-leng
-                        String.prototype.paddingLeft = function (paddingValue) {
-                            return String(paddingValue + this).slice(-paddingValue.length);
-                        };
-                        $scope.todayWeatherInfo.onlineImg = 'http://mobile.weather.com.cn/images/day/' + $scope.todayWeatherInfo.img1.replace('d', '').replace('n', '').replace('.gif', '').paddingLeft('00') + '.png';
-                    });
-                }).then(function () {
-                    zpwWeatherService.getWeeklyWeather($scope.currentCity.d1).then(function (data) {
-                        $scope.weeklyWeatherInfo = data;
-                    });
+                $q.all([rtwPromise, twPromise, wwPromise]).then(function success(data) {
+                    //<1>
+                    $scope.realtimeWeatherInfo = data[0];
+
+                    //<2>
+                    $scope.todayWeatherInfo = data[1];
+
+                    //http://stackoverflow.com/questions/2686855/is-there-a-javascript-function-that-can-pad-a-string-to-get-to-a-determined-leng
+                    String.prototype.paddingLeft = function (paddingValue) {
+                        return String(paddingValue + this).slice(-paddingValue.length);
+                    };
+                    $scope.todayWeatherInfo.onlineImg = 'http://mobile.weather.com.cn/images/day/' + $scope.todayWeatherInfo.img1.replace('d', '').replace('n', '').replace('.gif', '').paddingLeft('00') + '.png';
+
+                    //<3>
+                    $scope.weeklyWeatherInfo = data[2];
+                }).catch(function error(error) {
+                    console.error(error);
                 }).finally(function () {
                     // Stop the ion-refresher from spinning
                     $scope.$broadcast('scroll.refreshComplete');
                 });
+
+
+                /** 被注释掉的这段代码，是按照chain的风格调用3个http api的，而上面的代码，是按照Parallel的风格并行执行3个http api请求的
+                 zpwWeatherService.getRealtimeWeather($scope.currentCity.d1).then(function success(data0) {
+                    $scope.realtimeWeatherInfo = data0;
+
+                    return zpwWeatherService.getTodayWeather($scope.currentCity.d1);
+                }).then(function success(data1) {
+                    $scope.todayWeatherInfo = data1;
+
+                    //http://stackoverflow.com/questions/2686855/is-there-a-javascript-function-that-can-pad-a-string-to-get-to-a-determined-leng
+                    String.prototype.paddingLeft = function (paddingValue) {
+                        return String(paddingValue + this).slice(-paddingValue.length);
+                    };
+                    $scope.todayWeatherInfo.onlineImg = 'http://mobile.weather.com.cn/images/day/' + $scope.todayWeatherInfo.img1.replace('d', '').replace('n', '').replace('.gif', '').paddingLeft('00') + '.png';
+
+                    return zpwWeatherService.getWeeklyWeather($scope.currentCity.d1);
+                }).then(function success(data2) {
+                    $scope.weeklyWeatherInfo = data2;
+                }).catch(function error(error) {
+                    console.info(error);
+                }).finally(function () {
+                    // Stop the ion-refresher from spinning
+                    $scope.$broadcast('scroll.refreshComplete');
+                });
+                 * */
             };
 
             /////////
