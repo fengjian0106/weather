@@ -16,7 +16,7 @@ angular.module('zpWeather')
                         String.prototype.paddingLeft = function (paddingValue) {
                             return String(paddingValue + this).slice(-paddingValue.length);
                         };
-                        $scope.todayWeatherInfo.onlineImg = 'http://mobile.weather.com.cn/images/day/' + $scope.todayWeatherInfo.img1.replace('d', '').replace('.gif', '').paddingLeft('00') + '.png';
+                        $scope.todayWeatherInfo.onlineImg = 'http://mobile.weather.com.cn/images/day/' + $scope.todayWeatherInfo.img1.replace('d', '').replace('n', '').replace('.gif', '').paddingLeft('00') + '.png';
                     });
                 }).then(function () {
                     zpwWeatherService.getWeeklyWeather($scope.currentCity.d1).then(function (data) {
