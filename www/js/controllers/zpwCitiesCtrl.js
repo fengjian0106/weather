@@ -18,7 +18,6 @@ angular.module('zpWeather')
 
             $scope.cityClicked = function (index) {
                 var city = $scope.focusCities[index];
-
                 zpwFocusCitiesStorage.setCurrentCity(city);
                 $ionicSideMenuDelegate.toggleLeft(false);
             };
@@ -56,5 +55,15 @@ angular.module('zpWeather')
                 }, 1000);
             };
 
+            $scope.deleteMode = function () {
+               $scope.modal.showDelete = !$scope.modal.showDelete;
+            };
 
+            $scope.deleteTitle = function () {
+                return ($scope.modal.showDelete?"done":"delete");
+            };
+
+            $scope.deleteCity = function (city) {
+                zpwFocusCitiesStorage.removeFocusCity(city);
+            };
         }]);
