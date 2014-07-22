@@ -26,8 +26,8 @@ angular.module('zpWeather')
 
                     //<3>
                     $scope.weeklyWeatherInfo = data[2];
-                }).catch(function error(error) {
-                    console.error(error);
+                }).catch(function error(err) {
+                    console.error(err);
                 }).finally(function () {
                     // Stop the ion-refresher from spinning
                     $scope.$broadcast('scroll.refreshComplete');
@@ -51,8 +51,8 @@ angular.module('zpWeather')
                     return zpwWeatherService.getWeeklyWeather($scope.currentCity.d1);
                 }).then(function success(data2) {
                     $scope.weeklyWeatherInfo = data2;
-                }).catch(function error(error) {
-                    console.info(error);
+                }).catch(function error(err) {
+                    console.info(err);
                 }).finally(function () {
                     // Stop the ion-refresher from spinning
                     $scope.$broadcast('scroll.refreshComplete');
