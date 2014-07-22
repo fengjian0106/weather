@@ -1,20 +1,33 @@
 <ion-pane ng-controller="zpwCitySelCtrl" class="zpw-city-sel-page">
-    <ion-header-bar>
+    <ion-header-bar class="bar-positive">
         <h1 class="title">choose city</h1>
 
         <div class="buttons">
             <button class="button button-clear" ng-click="close()">Close</button>
         </div>
     </ion-header-bar>
-
-    <ion-content>
-        <div class="zpw-city-sel-page__list">
-            <div class="zpw-city-sel-page__list__item"
-                 collection-repeat="city in cities"
+    <ion-header-bar class="bar-stable bar-subheader zpw-city-sel-page__searchbar">
+        <input type="text"
+               placeholder="Filter city..."
+               ng-model="searchStr"
+               ng-change="scrollTop()"
+               class="zpw-city-sel-page__searchbar__input"/>
+        <button ng-if="searchStr.length"
+                class="button button-icon ion-close-round zpw-city-sel-page__searchbar__clear-button"
+                ng-click="clearSearchStr()">
+        </button>
+    </ion-header-bar>
+    <ion-content class="zpw-city-sel-page__ioncontent">
+        <div class="list zpw-city-sel-page__ioncontent__list">
+            <div class="item zpw-city-sel-page__ioncontent__list__item"
+                 collection-repeat="city in cities | filter : filterCityFunc"
                  collection-item-height="getItemHeight(city)"
                  collection-item-width="getItemWidth(city)"
-                 ng-click="itemClicked($index)">
-                {{city.d2}} - {{city.d4}}
+                 ng-click="itemClicked($index, city)">
+                <i class="icon ion-checkmark-circled" ng-if="checkCityAdded(city)"></i>
+
+                <div class="zpw-city-sel-page__ioncontent__list__item__content"
+                     ng-bind-template="{{city.d2}} - {{city.d4}}"></div>
             </div>
         </div>
     </ion-content>

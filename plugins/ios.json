@@ -39,6 +39,10 @@
                         {
                             "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"IonicKeyboard\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -69,6 +73,9 @@
             "PACKAGE_NAME": "com.ZPYD.zpWeather"
         },
         "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "com.ZPYD.zpWeather"
+        },
+        "com.ionic.keyboard": {
             "PACKAGE_NAME": "com.ZPYD.zpWeather"
         }
     },

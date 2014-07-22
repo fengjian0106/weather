@@ -1,0 +1,19 @@
+.zpw-city-sel-page__searchbar {
+  @extend %flexbox;
+  @include flex-direction(row);
+  @include justify-content(space-between);
+  @include align-items(center);
+}
+
+.zpw-city-sel-page__ioncontent__list__item {
+  @extend %flexbox;
+  width: 100%;
+  font-size: 16px;
+}
+
+.zpw-city-sel-page__ioncontent__list__item__content {
+  @extend %flexbox;
+  @include justify-content(flex-end);
+  width: 100%;
+  //  background-color: purple;
+}

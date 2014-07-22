@@ -33,6 +33,7 @@ angular.module('zpWeather')
                 localStorage.setItem(FOCUS_CITIES_ID, JSON.stringify(focusCities));
 
                 if (focusCities.length === 1) {
+
                     _setCurrentCity(city);
                 }
             },
@@ -41,6 +42,19 @@ angular.module('zpWeather')
                 return currentCity;
             },
 
+            checkAdded: function (city) {
+                var cityAdded;
+                var citiesAdded = this.getFocusCities();
+                for (var i = 0; i < citiesAdded.length; i++) {
+                    cityAdded = citiesAdded[i];
+                    if (city.d1 === cityAdded.d1) {
+                        return true;
+                    } else {
+                        continue;
+                    }
+                    return false;
+                }
+            },
             setCurrentCity: _setCurrentCity
         };
     });
