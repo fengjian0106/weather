@@ -15,7 +15,6 @@ angular.module('zpWeather')
                     modal.show();
                 });
             };
-
             $scope.cityClicked = function (index) {
                 var city = $scope.focusCities[index];
                 zpwFocusCitiesStorage.setCurrentCity(city);

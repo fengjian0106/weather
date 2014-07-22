@@ -17,6 +17,6 @@ ap geolocation
 # ap device-orientation
 # ap contacts
 ap statusbar
-# cordova plugin add https://github.com/driftyco/ionic-plugins-keyboard
+cordova plugin add https://github.com/driftyco/ionic-plugins-keyboard
 # cordova plugin add https://github.com/wildabeast/BarcodeScanner.git
 # cordova plugin add https://github.com/chrisekelley/AppPreferences
