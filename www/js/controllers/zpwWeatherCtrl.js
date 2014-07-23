@@ -26,6 +26,18 @@ angular.module('zpWeather')
 
                     //<3>
                     $scope.weeklyWeatherInfo = data[2];
+
+                    //fixbug 缺少当天最高气温和天气图标
+                    var curDayWeather = data[2][0];
+                    if (curDayWeather !== null && (curDayWeather.fa === "" || curDayWeather.fc === "")) {
+                        curDayWeather.fc = $scope.todayWeatherInfo.temp2;
+                        var index = curDayWeather.fc.indexOf("℃");
+                        if (index !== -1) {
+                            curDayWeather.fc = curDayWeather.fc.slice(0,index);
+                        }
+                        curDayWeather.fa = $scope.todayWeatherInfo.img1;
+                    }
+
                 }).catch(function error(error) {
                     console.error(error);
                 }).finally(function () {
@@ -34,8 +46,8 @@ angular.module('zpWeather')
                 });
 
 
-                /** 被注释掉的这段代码，是按照chain的风格调用3个http api的，而上面的代码，是按照Parallel的风格并行执行3个http api请求的
-                 zpwWeatherService.getRealtimeWeather($scope.currentCity.d1).then(function success(data0) {
+//                 被注释掉的这段代码，是按照chain的风格调用3个http api的，而上面的代码，是按照Parallel的风格并行执行3个http api请求的
+                /*zpwWeatherService.getRealtimeWeather($scope.currentCity.d1).then(function success(data0) {
                     $scope.realtimeWeatherInfo = data0;
 
                     return zpwWeatherService.getTodayWeather($scope.currentCity.d1);
@@ -51,13 +63,25 @@ angular.module('zpWeather')
                     return zpwWeatherService.getWeeklyWeather($scope.currentCity.d1);
                 }).then(function success(data2) {
                     $scope.weeklyWeatherInfo = data2;
+
+                    //fixbug 缺少当天最高气温和天气图标
+                    var curDayWeather = data2[0];
+                    if (curDayWeather !== null && (curDayWeather.fa === "" || curDayWeather.fc === "")) {
+                        curDayWeather.fa = $scope.todayWeatherInfo.img1;
+                        curDayWeather.fc = $scope.todayWeatherInfo.temp2;
+                        var index = curDayWeather.fc.indexOf("℃");
+                        if (index !== -1) {
+                            curDayWeather.fc = curDayWeather.fc.slice(0, index);
+                        }
+                    }
+
                 }).catch(function error(error) {
                     console.info(error);
                 }).finally(function () {
                     // Stop the ion-refresher from spinning
                     $scope.$broadcast('scroll.refreshComplete');
-                });
-                 * */
+                });*/
+
             };
 
             /////////
