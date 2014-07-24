@@ -26,6 +26,18 @@ angular.module('zpWeather')
 
                     //<3>
                     $scope.weeklyWeatherInfo = data[2];
+
+                    //fixbug 缺少当天最高气温和天气图标
+                    var curDayWeather = data[2][0];
+                    if (curDayWeather !== null && (curDayWeather.fa === "" || curDayWeather.fc === "")) {
+                        curDayWeather.fc = $scope.todayWeatherInfo.temp2;
+                        var index = curDayWeather.fc.indexOf("℃");
+                        if (index !== -1) {
+                            curDayWeather.fc = curDayWeather.fc.slice(0, index);
+                        }
+                        curDayWeather.fa = $scope.todayWeatherInfo.img1;
+                    }
+
                 }).catch(function error(err) {
                     console.error(err);
                 }).finally(function () {
@@ -34,30 +46,40 @@ angular.module('zpWeather')
                 });
 
 
-                /** 被注释掉的这段代码，是按照chain的风格调用3个http api的，而上面的代码，是按照Parallel的风格并行执行3个http api请求的
-                 zpwWeatherService.getRealtimeWeather($scope.currentCity.d1).then(function success(data0) {
-                    $scope.realtimeWeatherInfo = data0;
+//                 被注释掉的这段代码，是按照chain的风格调用3个http api的，而上面的代码，是按照Parallel的风格并行执行3个http api请求的
+                /*zpwWeatherService.getRealtimeWeather($scope.currentCity.d1).then(function success(data0) {
+                 $scope.realtimeWeatherInfo = data0;
 
-                    return zpwWeatherService.getTodayWeather($scope.currentCity.d1);
-                }).then(function success(data1) {
-                    $scope.todayWeatherInfo = data1;
+                 return zpwWeatherService.getTodayWeather($scope.currentCity.d1);
+                 }).then(function success(data1) {
+                 $scope.todayWeatherInfo = data1;
 
-                    //http://stackoverflow.com/questions/2686855/is-there-a-javascript-function-that-can-pad-a-string-to-get-to-a-determined-leng
-                    String.prototype.paddingLeft = function (paddingValue) {
-                        return String(paddingValue + this).slice(-paddingValue.length);
-                    };
-                    $scope.todayWeatherInfo.onlineImg = 'http://mobile.weather.com.cn/images/day/' + $scope.todayWeatherInfo.img1.replace('d', '').replace('n', '').replace('.gif', '').paddingLeft('00') + '.png';
+                 //http://stackoverflow.com/questions/2686855/is-there-a-javascript-function-that-can-pad-a-string-to-get-to-a-determined-leng
+                 String.prototype.paddingLeft = function (paddingValue) {
+                 return String(paddingValue + this).slice(-paddingValue.length);
+                 };
+                 $scope.todayWeatherInfo.onlineImg = 'http://mobile.weather.com.cn/images/day/' + $scope.todayWeatherInfo.img1.replace('d', '').replace('n', '').replace('.gif', '').paddingLeft('00') + '.png';
 
-                    return zpwWeatherService.getWeeklyWeather($scope.currentCity.d1);
-                }).then(function success(data2) {
-                    $scope.weeklyWeatherInfo = data2;
-                }).catch(function error(err) {
-                    console.info(err);
-                }).finally(function () {
-                    // Stop the ion-refresher from spinning
-                    $scope.$broadcast('scroll.refreshComplete');
-                });
-                 * */
+                 return zpwWeatherService.getWeeklyWeather($scope.currentCity.d1);
+                 }).then(function success(data2) {
+                 $scope.weeklyWeatherInfo = data2;
+
+                 //fixbug 缺少当天最高气温和天气图标
+                 var curDayWeather = data2[0];
+                 if (curDayWeather !== null && (curDayWeather.fa === "" || curDayWeather.fc === "")) {
+                 curDayWeather.fa = $scope.todayWeatherInfo.img1;
+                 curDayWeather.fc = $scope.todayWeatherInfo.temp2;
+                 var index = curDayWeather.fc.indexOf("℃");
+                 if (index !== -1) {
+                 curDayWeather.fc = curDayWeather.fc.slice(0, index);
+                 }
+                 }
+
+                 }).catch(function error(err) {
+                 console.info(err);
+                 }).finally(function () {
+                 // Stop the ion-refresher from spinning
+                 $scope.$broadcast('scroll.refreshComplete');*/
             };
 
             /////////
