@@ -15,12 +15,24 @@ angular.module('zpWeather')
                     modal.show();
                 });
             };
+
             $scope.cityClicked = function (index) {
                 var city = $scope.focusCities[index];
                 zpwFocusCitiesStorage.setCurrentCity(city);
                 $ionicSideMenuDelegate.toggleLeft(false);
             };
 
+            $scope.deleteMode = function () {
+                $scope.showDelete = !$scope.showDelete;
+            };
+
+            $scope.deleteTitle = function () {
+                return ($scope.showDelete ? "done" : "delete");
+            };
+
+            $scope.deleteCity = function (city) {
+                zpwFocusCitiesStorage.removeFocusCity(city);
+            };
 
             ///////////////////////////////////////////////////////////Just for test -- fj
             // Form data for the login modal
@@ -36,12 +48,12 @@ angular.module('zpWeather')
             // Triggered in the login modal to close it
             $scope.closeLogin = function () {
                 $scope.modal.hide();
-            },
+            };
 
-                // Open the login modal
-                $scope.login = function () {
-                    $scope.modal.show();
-                };
+            // Open the login modal
+            $scope.login = function () {
+                $scope.modal.show();
+            };
 
             // Perform the login action when the user submits the login form
             $scope.doLogin = function () {
@@ -54,15 +66,4 @@ angular.module('zpWeather')
                 }, 1000);
             };
 
-            $scope.deleteMode = function () {
-               $scope.modal.showDelete = !$scope.modal.showDelete;
-            };
-
-            $scope.deleteTitle = function () {
-                return ($scope.modal.showDelete?"done":"delete");
-            };
-
-            $scope.deleteCity = function (city) {
-                zpwFocusCitiesStorage.removeFocusCity(city);
-            };
         }]);
