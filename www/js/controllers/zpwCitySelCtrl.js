@@ -2,17 +2,22 @@
 
 angular.module('zpWeather')
     .controller('zpwCitySelCtrl',
-    ['$scope', '$rootScope', '$http', '$timeout', 'zpwFocusCitiesStorage', '$ionicScrollDelegate', '$ionicPopup',
-        function ($scope, $rootScope, $http, $timeout, zpwFocusCitiesStorage, $ionicScrollDelegate, $ionicPopup) {
+    ['$scope', '$rootScope', '$http', '$timeout', 'zpwFocusCitiesStorage', '$ionicScrollDelegate', '$ionicPopup', '$ionicLoading',
+        function ($scope, $rootScope, $http, $timeout, zpwFocusCitiesStorage, $ionicScrollDelegate, $ionicPopup, $ionicLoading) {
+            var ionContentHeight = 0;
             $http({
                 method: 'get',
                 url: 'allCities.json'
             }).success(function (data, status, headers, config) {
                 $scope.cities = data.d;
+                $scope.getElementIonContentHeight();
             }).error(function (err, status, headers, config) {
                 console.log('Error retrieving allCities.json');
             });
-
+            $scope.getElementIonContentHeight = function () {
+                ionContentHeight = document.querySelector('.zpw-city-sel-page__ioncontent').clientHeight;
+//                console.log("ionContentHeight" + ionContentHeight);
+            };
             $scope.close = function () {
                 $scope.closeKeyboard();
                 $scope.removeAllEventListener();
@@ -34,17 +39,28 @@ angular.module('zpWeather')
             });
             $scope.clearSearchStr = function () {
                 $scope.searchStr = '';
+                $ionicScrollDelegate.scrollTop();
             };
             $scope.itemClicked = function (index, city) {
                 if (zpwFocusCitiesStorage.checkAdded(city)) {//true 已存   false 未存
-                    var customPopup = $ionicPopup.show({
-                        title: city.d2 + "-" + city.d4,
-                        template: "已添加 -- TODO, ",
-                        scope: $scope
+
+//                    var customPopup = $ionicPopup.show({
+//                        title: city.d2 + "-" + city.d4,
+//                        template: "已添加 -- TODO, ",
+//                        scope: $scope
+//                    });
+//                    $timeout(function () {
+//                        customPopup.close();
+//                    }, 1500);
+
+
+                    //单例一直存在 ionicLoading
+                    $ionicLoading.show({
+                        template: city.d2 + "-" + city.d4 + "<br/><br/>已添加",
+                        noBackdrop: false,
+                        duration: 1000
                     });
-                    $timeout(function () {
-                        customPopup.close();
-                    }, 1500);
+
                 } else {
                     zpwFocusCitiesStorage.addFocusCity(city);
                     $scope.closeKeyboard();
@@ -84,7 +100,7 @@ angular.module('zpWeather')
                 }
                 return false;
             };
-            $scope.scrollTop = function (){
+            $scope.scrollTop = function () {
                 $ionicScrollDelegate.scrollTop();
             }
             $scope.closeKeyboard = function () {
@@ -93,7 +109,7 @@ angular.module('zpWeather')
                 }
             };
             /**
-            https://github.com/driftyco/ionic-plugins-keyboard
+             https://github.com/driftyco/ionic-plugins-keyboard   键盘事件 网页文档有描述
              */
             window.addEventListener('native.keyboardshow', keyboardShowHandler);
             window.addEventListener('native.keyboardhide', keyboardHideHandler);
@@ -102,19 +118,14 @@ angular.module('zpWeather')
                 window.removeEventListener('native.keyboardhide', keyboardHideHandler);
             };
 
-            var keyboardHeight = 0;
-
             function keyboardShowHandler(e) {
-                var height = document.querySelector('.zpw-city-sel-page__ioncontent').clientHeight;
-//                alert("show " +height +window.innerHeight+" "+window.outerHeight+" "+ e.keyboardHeight);
-                keyboardHeight = e.keyboardHeight;
-                angular.element(document.querySelector('.zpw-city-sel-page__ioncontent')).css('height', height - e.keyboardHeight + 'px');
+//                console.log("show " + ionContentHeight + " " + window.innerHeight + " " + window.outerHeight + " " + e.keyboardHeight);
+                angular.element(document.querySelector('.zpw-city-sel-page__ioncontent')).css('height', +ionContentHeight - e.keyboardHeight + 'px');
             };
 
             function keyboardHideHandler(e) {
-                var height = document.querySelector('.zpw-city-sel-page__ioncontent').clientHeight;
-//                alert(" hide " + height+" "+window.innerHeight+" "+window.outerHeight+" "+ e.keyboardHeight);
-                angular.element(document.querySelector('.zpw-city-sel-page__ioncontent')).css('height', height + keyboardHeight + 'px');
+//                console.log("hide " + ionContentHeight + " " + window.innerHeight + " " + window.outerHeight + " " + e.keyboardHeight);
+                angular.element(document.querySelector('.zpw-city-sel-page__ioncontent')).css('height', ionContentHeight + 'px');
             };
         }]);
 

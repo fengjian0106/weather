@@ -14,7 +14,7 @@ angular.module('zpWeather', ['ionic', 'ngCordova'])
             }
             if (window.StatusBar) {
                 // org.apache.cordova.statusbar required
-                StatusBar.styleDefault();
+                window.StatusBar.styleDefault();
             }
         });
     })

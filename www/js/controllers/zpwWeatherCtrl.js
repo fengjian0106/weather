@@ -112,23 +112,4 @@ angular.module('zpWeather')
 
 
 
-
-
-
-
-
-                // Delay so we are in the DOM and can calculate sizes
-            $timeout(function () {
-                var windowHeight = window.innerHeight,
-                    navBarHeight = document.querySelector('.zpw-side-menu__nav-bar').offsetHeight,
-                    /**
-                     *  纯技术角度来看，weatherInfoH的值，应该就用代码动态查询出来，但是这个需要timeout延迟一段时间后，才能获取到真正的非零值，
-                     所以这里用一点magic code，用代码直接写出这个高度值，而且这个高度值，是在_zpw-weather-page.scss中预设好的
-                     weatherInfoH = document.querySelector('.zpw-weather-page__content__weather-info').offsetHeight,
-                     * */
-                    weatherInfoH = 105 + 130,
-                    marginTop = windowHeight - navBarHeight - weatherInfoH;
-
-                angular.element(document.querySelector('.zpw-weather-page__content__weather-info')).css('padding-top', marginTop + 'px');
-            });
         }]);

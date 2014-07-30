@@ -39,18 +39,18 @@ angular.module('zpWeather')
             },
 
             removeFocusCity: function (city) {
-                if(focusCities.indexOf(city) !== -1) {
+                if (focusCities.indexOf(city) !== -1) {
                     focusCities.splice(focusCities.indexOf(city), 1);
                     localStorage.setItem(FOCUS_CITIES_ID, JSON.stringify(focusCities));
-                    if (focusCities.length > 0){
-                        if (city.d1 == currentCity.d1){
+                    if (focusCities.length > 0) {
+                        if (city.d1 == currentCity.d1) {
                             _setCurrentCity(focusCities[0]);
                         }
-                    }else {
+                    } else {
                         _setCurrentCity(null);
                     }
-                }else {
-                    console.log(city.d2, 'no found in focusCities' );
+                } else {
+                    console.log(city.d2, 'no found in focusCities');
                 }
             },
 
