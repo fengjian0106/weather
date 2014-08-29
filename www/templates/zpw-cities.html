@@ -1,0 +1,35 @@
+<ion-side-menus class="zpw-cities-page">
+
+    <ion-pane ion-side-menu-content drag-content=false>
+        <ion-nav-bar class="bar-stable nav-title-slide-ios7 zpw-side-menu__nav-bar">
+            <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back
+            </ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+    </ion-pane>
+
+    <ion-side-menu side="left">
+        <header class="bar bar-header bar-stable">
+            <!--<button class="button button-clear button-positive" ng-click="login()">login</button>-->
+            <button class="button button-clear button-positive" ng-click="deleteMode()">{{deleteTitle()}}</button>
+            <h1 class="title">city</h1>
+            <button class="button button-icon icon ion-ios7-plus-empty" ng-click="addCity()"></button>
+        </header>
+        <ion-content class="has-header">
+            <ion-list show-delete="showDelete">
+                <!--<ion-item nav-clear menu-close ng-click="login()">-->
+                <!--Login-->
+                <!--</ion-item>-->
+
+                <ion-item ng-repeat="city in focusCities" href="#/app/weather" ng-click="cityClicked($index)">
+                    {{city.d2}} - {{city.d4}}
+                    <ion-delete-button class="ion-minus-circled"
+                                       ng-click="deleteCity(city)">
+                    </ion-delete-button>
+                </ion-item>
+
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+
+</ion-side-menus>

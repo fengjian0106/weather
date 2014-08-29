@@ -1,0 +1,43 @@
+<ion-pane ng-controller="zpwCitySelCtrl" class="zpw-city-sel-page">
+    <ion-header-bar class="bar-positive">
+        <h1 class="title">choose city</h1>
+
+        <div class="buttons">
+            <button class="button button-clear" ng-click="close()">Close</button>
+        </div>
+    </ion-header-bar>
+
+    <ion-header-bar class="bar-subheader bar-stable zpw-city-sel-page__searchbar">
+        <input
+                type="text"
+                placeholder="Filter city..."
+                ng-model="searchStr"
+                ng-change="scrollTop()"
+                />
+
+        <h1 class="title"></h1><!--不要删除 否则ios7以下版本和安卓 .zpw-city-sel-page__searchbar__clear-button 位置出问题-->
+        <div class="buttons">
+            <button ng-if="searchStr.length"
+                    class="button button-icon  ion-ios7-close zpw-city-sel-page__searchbar__clear-button"
+                    ng-click="clearSearchStr()">
+            </button>
+        </div>
+    </ion-header-bar>
+
+    <ion-content class="zpw-city-sel-page__ioncontent">
+        <div class="list zpw-city-sel-page__ioncontent__list">
+            <div class="item zpw-city-sel-page__ioncontent__list__item"
+                 collection-repeat="city in cities | filter : filterCityFunc"
+                 collection-item-height="getItemHeight(city)"
+                 collection-item-width="getItemWidth(city)"
+                 ng-click="itemClicked($index, city)">
+                <i class="icon ion-checkmark-circled zpw-city-sel-page__ioncontent__list__item__icon"
+                   ng-show="checkCityAdded(city)"></i>
+
+                <div class="zpw-city-sel-page__ioncontent__list__item__content"
+                     ng-bind-template="{{city.d2}} - {{city.d4}}"></div>
+            </div>
+        </div>
+    </ion-content>
+
+</ion-pane>

@@ -1,0 +1,64 @@
+.zpw-weather-page {
+
+}
+
+//介绍 子选择器 和 后代选择器 的区别  http://mozilla.com.cn/post/21668/
+.zpw-weather-page__content > .scroll {
+  /*
+  ！！这个scroll是ion-content生成的，我们的UI设计，需要
+  让这个scroll的某个子孙级别的div布局到手机屏幕的下方，使用flex是最方便的方法，所以这个hack一下
+  让这个scroll填满整个屏幕
+
+  如果不使用flex，则需要在zpwWeatherCtrl.js中添加如下的代码片段
+  // Delay so we are in the DOM and can calculate sizes
+            $timeout(function () {
+                var windowHeight = window.innerHeight,
+                    navBarHeight = document.querySelector('.zpw-side-menu__nav-bar').offsetHeight,
+
+                     //纯技术角度来看，weatherInfoH的值，应该就用代码动态查询出来，但是这个需要timeout延迟一段时间后，才能获取到真正的非零值，
+                     //所以这里用一点magic code，用代码直接写出这个高度值，而且这个高度值，是在_zpw-weather-page.scss中预设好的
+                     //weatherInfoH = document.querySelector('.zpw-weather-page__content__weather-info').offsetHeight,
+
+  weatherInfoH = 105 + 130,
+  marginTop = windowHeight - navBarHeight - weatherInfoH;
+
+  angular.element(document.querySelector('.zpw-weather-page__content__weather-info')).css('padding-top', marginTop + 'px');
+});
+
+
+
+
+   height: 100%;是以父元素的高度为准  http://www.w3school.com.cn/cssref/pr_dim_height.asp
+  因为呈现页面只是占整个屏幕 单独只设置height:100%  避免潜在的布局冲突因此没有使用flexbox
+  */
+  height: 100%;
+  //    background-color: orange;
+}
+
+.zpw-weather-page__content__section {
+  @extend %flexbox;
+  @include flex-direction(column);
+  @include justify-content(flex-end);
+  @include align-items(stretch);
+  height: 100%;
+  //  background-color: red;
+}
+
+.zpw-weather-page__content__section__weather-info {
+  //    background-color: green;
+}
+
+.zpw-weather-page__content__section__weather-info__current-weather {
+  //  background-color: hotpink;
+}
+
+.zpw-weather-page__content__section__weather-info__weekly-weather {
+  @extend %flexbox;
+  //  @include flex-direction(row-reverse);
+  @include flex-direction(row);
+  @include justify-content(space-between);
+  @include align-items(flex-end);
+
+  background-color: rgba(1, 1, 1, 0.3);
+  //  border-top:1px solid #ffffff;
+}

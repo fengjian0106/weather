@@ -1,0 +1,17 @@
+.zpw-daily-weather {
+  @extend %flexbox;
+  @include flex-direction(column);
+  @include align-items(center);
+
+  color: #ffffff;
+  //  background-color: green;
+}
+
+.zpw-daily-weather__month-day {
+  margin-bottom: 5px;
+}
+
+.zpw-daily-weather__weather-icon {
+  height: 45px;
+//  background-color: lightseagreen;
+}

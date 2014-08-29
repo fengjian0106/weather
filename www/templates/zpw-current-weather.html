@@ -1,0 +1,26 @@
+<div class="zpw-current-weather">
+    <div class="zpw-current-weather__top-container">
+        <div class="zpw-current-weather__top-container__first-item">
+            <div class="zpw-current-weather__top-container__first-item__weather-icon"
+                 style="background-image: url({{todayWeather.onlineImg}});"></div>
+            <!--<zpw-weather-icon icon-index-str="todayWeather.img1.replace('d', '').replace('n', '').replace('.gif', '');"-->
+            <!--class="zpw-current-weather__top-container__first-item__weather-icon"></zpw-weather-icon>-->
+
+
+            <div class="zpw-current-weather__top-container__first-item__info">{{todayWeather.weather}}</div>
+        </div>
+        <div class="zpw-current-weather__top-container__realtime-temp">{{realtimeWeather.temp}}℃</div>
+    </div>
+
+    <div class="zpw-current-weather__bottom-container">
+        <div class="zpw-current-weather__today-temp"><span ng-bind="todayWeather.temp1"></span> ~ {{todayWeather.temp2}}
+        </div>
+        <!--//refer to http://jsfiddle.net/CkBWL/-->
+        <div class="zpw-current-weather__date">{{date | date:'MM/dd'}}</div>
+    </div>
+
+    <div class="zpw-current-weather__bottom-container">
+        <div class="zpw-current-weather__wind">{{realtimeWeather.WD + realtimeWeather.WS}}</div>
+        <div class="zpw-current-weather__humidity">湿度{{realtimeWeather.SD}}</div>
+    </div>
+</div>

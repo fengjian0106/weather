@@ -2,7 +2,9 @@
   "name": "HelloIonic",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.0-beta.9",
-    "ngCordova": "~0.1.2-alpha"
+    "ionic": "driftyco/ionic-bower#1.0.0-beta.11",
+    "ngCordova": "~0.1.2-alpha",
+    "pesticide": "git://github.com/mrmrs/pesticide",
+    "sass-flex-mixin": "git://github.com/mastastealth/sass-flex-mixin"
   }
 }

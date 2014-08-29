@@ -1,0 +1,38 @@
+<ion-view title="{{currentCity.d2}}" class="zpw-weather-page">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <!--<ion-content class="has-header" zpw-background-image="http://images2.wikia.nocookie.net/__cb20110811172434/fallingskies/images/f/fd/Totoro_normal.gif" >-->
+    <ion-content class="has-header zpw-weather-page__content"
+                 scrollbar-x="false"
+                 scrollbar-y="false"
+                 zpw-background-image="img/default_background_3.jpg">
+        <!--<ion-refresher-->
+        <!--pulling-text="Pull to refresh..."-->
+        <!--on-refresh="doRefresh()">-->
+        <!--</ion-refresher>-->
+
+        <ion-refresher
+                on-refresh="doRefresh()">
+        </ion-refresher>
+
+        <div class="zpw-weather-page__content__section">
+            <div class="zpw-weather-page__content__section__weather-info">
+                <zpw-current-weather realtime-weather="realtimeWeatherInfo"
+                                     today-weather="todayWeatherInfo"
+                                     date="todayDate"
+                                     class="zpw-weather-page__content__section__weather-info__current-weather">
+
+                </zpw-current-weather>
+
+                <div class="zpw-weather-page__content__section__weather-info__weekly-weather">
+                    <div ng-repeat="weather in weeklyWeatherInfo">
+                        <zpw-daily-weather weather="weather" index="$index"></zpw-daily-weather>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

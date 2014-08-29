@@ -1,0 +1,10 @@
+<div class="zpw-daily-weather">
+    <div class="zpw-daily-weather__week-day">{{date | date:'EEE'}}</div>
+    <div class="zpw-daily-weather__month-day">{{date | date:'MM/dd'}}</div>
+
+    <div class="zpw-daily-weather__high-temp">{{weather.fc}}℃</div>
+    <zpw-weather-icon icon-index-str={{weather.fa}} class="zpw-daily-weather__weather-icon"></zpw-weather-icon>
+    <div class="zpw-daily-weather__low-temp">{{weather.fd}}℃</div>
+
+    <!--<div class="zpw-daily-weather__high-low-temps">{{weather.fc}}~{{weather.fd}}℃</div>-->
+</div>

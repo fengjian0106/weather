@@ -1,0 +1,22 @@
+.zpw-city-sel-page__searchbar {
+  @extend %flexbox;
+  @include flex-direction(row);
+  @include justify-content(space-between);
+  @include align-items(center);
+
+}
+
+.zpw-city-sel-page__ioncontent__list__item {
+  @extend %flexbox;
+  @include flex-direction(row);
+  @include justify-content(flex-end); //使用flex-end而不使用space-between是因为左边的图标在不显示的情况下文案会左边对齐
+  @include align-items(center);
+  width: 100%;
+  font-size: 16px;
+}
+
+.zpw-city-sel-page__ioncontent__list__item__icon {
+  @extend %flexbox; //icon 需要设置成flexbox才能解决android上面布局的问题
+  @include flex-grow(1); //自身尺寸占右边文案剩余尺寸 需要这样设置否则ios7以下版本和安卓出问题
+  //  background-color: red;
+}
